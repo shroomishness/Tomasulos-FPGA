@@ -1,0 +1,739 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.06 secs
+ 
+--> Reading design: CU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CU"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-ft256
+
+---- Source Options
+Top Module Name                    : CU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/CU is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/CU.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd".
+WARNING:HDLParsers:3607 - Unit work/CU/CPU_STRUCT is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/CU.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADR_ctl is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADD_ctl.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADR_ctl/Behavioral is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADD_ctl.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ALU.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU/Behavioral is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ALU.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_ctl is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/PC_ctl.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_ctl/STRUCTURE is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/PC_ctl.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/Register.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg/Behavioral is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/Register.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd".
+WARNING:HDLParsers:3607 - Unit work/SR is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/SR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd".
+WARNING:HDLParsers:3607 - Unit work/SR/Behavioral is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/SR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADDC is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADDC.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADDC/addwc is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADDC.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADD_R is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADD_R.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADD_R/struct is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADD_R.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_AND is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_AND.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_AND/bitand is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_AND.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_NOT is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_NOT.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_NOT/bitnot is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_NOT.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_OR is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_OR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_OR/bitor is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_OR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_XOR is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_XOR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_XOR/bitxor is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_XOR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd".
+WARNING:HDLParsers:3607 - Unit work/NEG is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/NEG.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd".
+WARNING:HDLParsers:3607 - Unit work/NEG/neg is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/NEG.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_REG is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/PC.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_REG/regar is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/PC.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd".
+WARNING:HDLParsers:3607 - Unit work/SBB is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/SBB.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd".
+WARNING:HDLParsers:3607 - Unit work/SBB/sbb is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/SBB.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd".
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" in Library work.
+Architecture struct of Entity add_r is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" in Library work.
+Architecture regar of Entity pc_reg is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" in Library work.
+Architecture bitand of Entity bit_and is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" in Library work.
+Architecture bitor of Entity bit_or is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" in Library work.
+Architecture bitnot of Entity bit_not is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" in Library work.
+Architecture bitxor of Entity bit_xor is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" in Library work.
+Architecture addwc of Entity addc is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" in Library work.
+Architecture sbb of Entity sbb is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" in Library work.
+Architecture neg of Entity neg is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" in Library work.
+Architecture structure of Entity pc_ctl is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" in Library work.
+Architecture behavioral of Entity reg is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" in Library work.
+Architecture behavioral of Entity adr_ctl is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" in Library work.
+Architecture behavioral of Entity sr is up to date.
+Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" in Library work.
+Architecture cpu_struct of Entity cu is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <CU> in library <work> (architecture <cpu_struct>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PC_ctl> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <Reg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ADR_ctl> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BIT_AND> in library <work> (architecture <bitand>).
+
+Analyzing hierarchy for entity <BIT_OR> in library <work> (architecture <bitor>).
+
+Analyzing hierarchy for entity <BIT_NOT> in library <work> (architecture <bitnot>).
+
+Analyzing hierarchy for entity <BIT_XOR> in library <work> (architecture <bitxor>).
+
+Analyzing hierarchy for entity <ADDC> in library <work> (architecture <addwc>).
+
+Analyzing hierarchy for entity <SBB> in library <work> (architecture <sbb>).
+
+Analyzing hierarchy for entity <NEG> in library <work> (architecture <neg>).
+
+Analyzing hierarchy for entity <PC_REG> in library <work> (architecture <regar>).
+
+Analyzing hierarchy for entity <ADD_R> in library <work> (architecture <struct>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <CU> in library <work> (Architecture <cpu_struct>).
+WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" line 207: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <opcode>, <ALU_out>, <ldd>, <ins_data>, <ADR_out>, <R_data_out2>, <dat_data>, <dat_ack>, <R_data_out1>
+Entity <CU> analyzed. Unit <CU> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <BIT_AND> in library <work> (Architecture <bitand>).
+Entity <BIT_AND> analyzed. Unit <BIT_AND> generated.
+
+Analyzing Entity <BIT_OR> in library <work> (Architecture <bitor>).
+Entity <BIT_OR> analyzed. Unit <BIT_OR> generated.
+
+Analyzing Entity <BIT_NOT> in library <work> (Architecture <bitnot>).
+Entity <BIT_NOT> analyzed. Unit <BIT_NOT> generated.
+
+Analyzing Entity <BIT_XOR> in library <work> (Architecture <bitxor>).
+Entity <BIT_XOR> analyzed. Unit <BIT_XOR> generated.
+
+Analyzing Entity <ADDC> in library <work> (Architecture <addwc>).
+Entity <ADDC> analyzed. Unit <ADDC> generated.
+
+Analyzing Entity <SBB> in library <work> (Architecture <sbb>).
+Entity <SBB> analyzed. Unit <SBB> generated.
+
+Analyzing Entity <NEG> in library <work> (Architecture <neg>).
+Entity <NEG> analyzed. Unit <NEG> generated.
+
+Analyzing Entity <PC_ctl> in library <work> (Architecture <structure>).
+WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" line 61: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <op>, <PC_ctl_in>, <REG_out>
+Entity <PC_ctl> analyzed. Unit <PC_ctl> generated.
+
+Analyzing Entity <PC_REG> in library <work> (Architecture <regar>).
+WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" line 33: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <PC_in>
+Entity <PC_REG> analyzed. Unit <PC_REG> generated.
+
+Analyzing Entity <Reg> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" line 60: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <SEL1>, <data_in>
+Entity <Reg> analyzed. Unit <Reg> generated.
+
+Analyzing Entity <ADR_ctl> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" line 64: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <op>, <ADR_in>, <Curr_adr>
+Entity <ADR_ctl> analyzed. Unit <ADR_ctl> generated.
+
+Analyzing Entity <ADD_R> in library <work> (Architecture <struct>).
+WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" line 45: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <SEL>, <ADD_in>
+Entity <ADD_R> analyzed. Unit <ADD_R> generated.
+
+Analyzing Entity <SR> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" line 30: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <SR_in>
+Entity <SR> analyzed. Unit <SR> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Reg>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd".
+WARNING:Xst:737 - Found 8-bit latch for signal <r0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <r1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <r2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <r3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <r4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <r5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <r6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <r7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <Reg> synthesized.
+
+
+Synthesizing Unit <SR>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd".
+WARNING:Xst:737 - Found 16-bit latch for signal <SR_out>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <SR> synthesized.
+
+
+Synthesizing Unit <BIT_AND>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd".
+Unit <BIT_AND> synthesized.
+
+
+Synthesizing Unit <BIT_OR>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd".
+Unit <BIT_OR> synthesized.
+
+
+Synthesizing Unit <BIT_NOT>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd".
+WARNING:Xst:647 - Input <in2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <BIT_NOT> synthesized.
+
+
+Synthesizing Unit <BIT_XOR>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd".
+    Found 8-bit xor2 for signal <result>.
+Unit <BIT_XOR> synthesized.
+
+
+Synthesizing Unit <ADDC>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd".
+    Found 8-bit xor2 for signal <result>.
+    Found 1-bit xor2 for signal <INT_CARRY_1$xor0000> created at line 57.
+    Found 1-bit xor2 for signal <INT_CARRY_2$xor0000> created at line 57.
+    Found 1-bit xor2 for signal <INT_CARRY_3$xor0000> created at line 57.
+    Found 1-bit xor2 for signal <INT_CARRY_4$xor0000> created at line 57.
+    Found 1-bit xor2 for signal <INT_CARRY_5$xor0000> created at line 57.
+    Found 1-bit xor2 for signal <INT_CARRY_6$xor0000> created at line 57.
+    Found 1-bit xor2 for signal <INT_CARRY_7$xor0000> created at line 57.
+    Found 1-bit xor2 for signal <INT_CARRY_8$xor0000> created at line 57.
+Unit <ADDC> synthesized.
+
+
+Synthesizing Unit <SBB>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd".
+WARNING:Xst:646 - Signal <INT_CARRY1<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 7-bit xor2 for signal <INT_BUS2<7:1>>.
+    Found 8-bit xor2 for signal <INT_BUS3>.
+    Found 1-bit xor2 for signal <INT_CARRY2_1$xor0000> created at line 85.
+    Found 1-bit xor2 for signal <INT_CARRY2_2$xor0000> created at line 85.
+    Found 1-bit xor2 for signal <INT_CARRY2_3$xor0000> created at line 85.
+    Found 1-bit xor2 for signal <INT_CARRY2_4$xor0000> created at line 85.
+    Found 1-bit xor2 for signal <INT_CARRY2_5$xor0000> created at line 85.
+    Found 1-bit xor2 for signal <INT_CARRY2_6$xor0000> created at line 85.
+    Found 1-bit xor2 for signal <INT_CARRY2_7$xor0000> created at line 85.
+    Found 1-bit xor2 for signal <INT_CARRY2_8$xor0000> created at line 85.
+Unit <SBB> synthesized.
+
+
+Synthesizing Unit <NEG>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd".
+WARNING:Xst:647 - Input <in2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <addnum<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 7-bit xor2 for signal <result<7:1>>.
+Unit <NEG> synthesized.
+
+
+Synthesizing Unit <PC_REG>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd".
+WARNING:Xst:737 - Found 16-bit latch for signal <PC_out>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <PC_REG> synthesized.
+
+
+Synthesizing Unit <ADD_R>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd".
+WARNING:Xst:737 - Found 16-bit latch for signal <a0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <a1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <a2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 16-bit 4-to-1 multiplexer for signal <ADD_out>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <ADD_R> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd".
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <PC_ctl>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd".
+WARNING:Xst:737 - Found 16-bit latch for signal <REG_in>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 16-bit adder for signal <REG_in$addsub0000>.
+    Found 16-bit 4-to-1 multiplexer for signal <REG_in$mux0001> created at line 64.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  16 Multiplexer(s).
+Unit <PC_ctl> synthesized.
+
+
+Synthesizing Unit <ADR_ctl>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_9>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_10>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_11>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_12>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_13>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_14>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_15>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 16-bit adder for signal <ADR_buffer$add0000> created at line 70.
+    Found 16-bit subtractor for signal <ADR_buffer$sub0000> created at line 71.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <ADR_ctl> synthesized.
+
+
+Synthesizing Unit <CU>.
+    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd".
+WARNING:Xst:1306 - Output <ins_req> is never assigned.
+WARNING:Xst:647 - Input <ins_ack> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <r2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <r1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <SR_out<15:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <SR_in<15:3>> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000.
+WARNING:Xst:737 - Found 8-bit latch for signal <R_data_in>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <dat_data>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <CU> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 2
+ 16-bit subtractor                                     : 1
+# Latches                                              : 32
+ 1-bit latch                                           : 16
+ 16-bit latch                                          : 6
+ 8-bit latch                                           : 10
+# Multiplexers                                         : 2
+ 16-bit 4-to-1 multiplexer                             : 2
+# Xors                                                 : 54
+ 1-bit xor2                                            : 54
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 2
+ 16-bit subtractor                                     : 1
+# Latches                                              : 32
+ 1-bit latch                                           : 16
+ 16-bit latch                                          : 6
+ 8-bit latch                                           : 10
+# Multiplexers                                         : 2
+ 16-bit 4-to-1 multiplexer                             : 2
+# Xors                                                 : 54
+ 1-bit xor2                                            : 54
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_3> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_4> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_5> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_6> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_7> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_8> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_9> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_10> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_11> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_12> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_13> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_14> of sequential type is unconnected in block <CU>.
+WARNING:Xst:2677 - Node <CPU_SR/SR_out_15> of sequential type is unconnected in block <CU>.
+
+Optimizing unit <CU> ...
+
+Optimizing unit <Reg> ...
+
+Optimizing unit <ADD_R> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <PC_ctl> ...
+
+Optimizing unit <ADR_ctl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CU, actual ratio is 7.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CU.ngr
+Top Level Output File Name         : CU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 94
+
+Cell Usage :
+# BELS                             : 681
+#      GND                         : 1
+#      LUT1                        : 8
+#      LUT2                        : 27
+#      LUT2_D                      : 6
+#      LUT2_L                      : 1
+#      LUT3                        : 104
+#      LUT3_D                      : 19
+#      LUT3_L                      : 25
+#      LUT4                        : 305
+#      LUT4_D                      : 17
+#      LUT4_L                      : 52
+#      MUXCY                       : 45
+#      MUXF5                       : 21
+#      MUXF6                       : 1
+#      VCC                         : 1
+#      XORCY                       : 48
+# FlipFlops/Latches                : 155
+#      LD                          : 67
+#      LDE                         : 88
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 91
+#      IBUF                        : 17
+#      OBUF                        : 74
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400ft256-4 
+
+ Number of Slices:                      297  out of   3584     8%  
+ Number of Slice Flip Flops:            155  out of   7168     2%  
+ Number of 4 input LUTs:                564  out of   7168     7%  
+ Number of IOs:                          94
+ Number of bonded IOBs:                  92  out of    173    53%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 155   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 12.752ns (Maximum Frequency: 78.419MHz)
+   Minimum input arrival time before clock: 21.638ns
+   Maximum output required time after clock: 18.980ns
+   Maximum combinational path delay: 27.866ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 12.752ns (frequency: 78.419MHz)
+  Total number of paths / destination ports: 7328 / 155
+-------------------------------------------------------------------------
+Delay:               12.752ns (Levels of Logic = 8)
+  Source:            CPU_REG/r4_1 (LATCH)
+  Destination:       R_data_in_6 (LATCH)
+  Source Clock:      clock falling
+  Destination Clock: clock falling
+
+  Data Path: CPU_REG/r4_1 to R_data_in_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              2   0.633   0.903  CPU_REG/r4_1 (CPU_REG/r4_1)
+     LUT4:I3->O            1   0.551   0.996  CPU_REG/data_out2<1>12 (CPU_REG/data_out2<1>12)
+     LUT4:I1->O           18   0.551   1.485  CPU_REG/data_out2<1>71 (regout2_1_OBUF)
+     LUT3:I2->O            7   0.551   1.405  CPU_ALU/ALU_SBB/Mxor_INT_BUS2<2>_Result1 (CPU_ALU/ALU_SBB/INT_BUS2<2>)
+     LUT4:I0->O            1   0.551   0.000  CPU_ALU/ALU_SBB/INT_CARRY2_4_or00001_G (N338)
+     MUXF5:I1->O           7   0.360   1.066  CPU_ALU/ALU_SBB/INT_CARRY2_4_or00001 (CPU_ALU/ALU_SBB/INT_CARRY2<4>)
+     MUXF5:S->O            2   0.621   0.877  CPU_ALU/result<6>115 (CPU_ALU/result<6>115)
+     MUXF5:S->O            1   0.621   0.827  CPU_ALU/result<6>131_SW0 (N159)
+     LUT4:I3->O            1   0.551   0.000  R_data_in_mux0001<6>68 (R_data_in_mux0001<6>)
+     LD:D                      0.203          R_data_in_6
+    ----------------------------------------
+    Total                     12.752ns (5.193ns logic, 7.559ns route)
+                                       (40.7% logic, 59.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 91595 / 139
+-------------------------------------------------------------------------
+Offset:              21.638ns (Levels of Logic = 13)
+  Source:            ins_data<14> (PAD)
+  Destination:       R_data_in_6 (LATCH)
+  Destination Clock: clock falling
+
+  Data Path: ins_data<14> to R_data_in_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   0.821   2.192  ins_data_14_IBUF (ins_data_14_IBUF)
+     LUT3:I0->O            3   0.551   0.975  ADR_op<2>11 (N5)
+     LUT3:I2->O            9   0.551   1.463  R_data_in_cmp_eq001011 (R_SEL1_cmp_eq0000)
+     LUT4:I0->O            1   0.551   0.996  R_SEL1<0>_SW0 (N127)
+     LUT4:I1->O           29   0.551   2.175  R_SEL1<0> (R_SEL1<0>)
+     LUT4:I0->O            1   0.551   0.869  CPU_REG/data_out1<0>12 (CPU_REG/data_out1<0>12)
+     LUT4:I2->O           16   0.551   1.305  CPU_REG/data_out1<0>69 (regout1_0_OBUF)
+     LUT3_D:I2->LO         1   0.551   0.126  CPU_ALU/ALU_ADC/INT_CARRY<1>1 (N364)
+     LUT4:I3->O            5   0.551   0.921  CPU_ALU/ALU_SBB/INT_CARRY2_2_or00001 (CPU_ALU/ALU_SBB/INT_CARRY2<2>)
+     MUXF5:S->O            7   0.621   1.066  CPU_ALU/ALU_SBB/INT_CARRY2_4_or00001 (CPU_ALU/ALU_SBB/INT_CARRY2<4>)
+     MUXF5:S->O            2   0.621   0.877  CPU_ALU/result<6>115 (CPU_ALU/result<6>115)
+     MUXF5:S->O            1   0.621   0.827  CPU_ALU/result<6>131_SW0 (N159)
+     LUT4:I3->O            1   0.551   0.000  R_data_in_mux0001<6>68 (R_data_in_mux0001<6>)
+     LD:D                      0.203          R_data_in_6
+    ----------------------------------------
+    Total                     21.638ns (7.846ns logic, 13.792ns route)
+                                       (36.3% logic, 63.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 2992 / 72
+-------------------------------------------------------------------------
+Offset:              18.980ns (Levels of Logic = 9)
+  Source:            CPU_REG/r4_1 (LATCH)
+  Destination:       alout<7> (PAD)
+  Source Clock:      clock falling
+
+  Data Path: CPU_REG/r4_1 to alout<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              2   0.633   0.903  CPU_REG/r4_1 (CPU_REG/r4_1)
+     LUT4:I3->O            1   0.551   0.996  CPU_REG/data_out2<1>12 (CPU_REG/data_out2<1>12)
+     LUT4:I1->O           18   0.551   1.485  CPU_REG/data_out2<1>71 (regout2_1_OBUF)
+     LUT3:I2->O            7   0.551   1.405  CPU_ALU/ALU_SBB/Mxor_INT_BUS2<2>_Result1 (CPU_ALU/ALU_SBB/INT_BUS2<2>)
+     LUT4:I0->O            1   0.551   0.000  CPU_ALU/ALU_SBB/INT_CARRY2_4_or00001_G (N338)
+     MUXF5:I1->O           7   0.360   1.066  CPU_ALU/ALU_SBB/INT_CARRY2_4_or00001 (CPU_ALU/ALU_SBB/INT_CARRY2<4>)
+     MUXF5:S->O            3   0.621   0.933  CPU_ALU/ALU_SBB/Mxor_INT_BUS3<7>_Result1 (CPU_ALU/SBB_N)
+     LUT4_D:I3->O          1   0.551   0.827  CPU_ALU/result<7>147_SW0 (N142)
+     LUT4:I3->O            1   0.551   0.801  CPU_ALU/result<7>147 (alout_7_OBUF)
+     OBUF:I->O                 5.644          alout_7_OBUF (alout<7>)
+    ----------------------------------------
+    Total                     18.980ns (10.564ns logic, 8.416ns route)
+                                       (55.7% logic, 44.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 48379 / 42
+-------------------------------------------------------------------------
+Delay:               27.866ns (Levels of Logic = 14)
+  Source:            ins_data<14> (PAD)
+  Destination:       alout<7> (PAD)
+
+  Data Path: ins_data<14> to alout<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   0.821   2.192  ins_data_14_IBUF (ins_data_14_IBUF)
+     LUT3:I0->O            3   0.551   0.975  ADR_op<2>11 (N5)
+     LUT3:I2->O            9   0.551   1.463  R_data_in_cmp_eq001011 (R_SEL1_cmp_eq0000)
+     LUT4:I0->O            1   0.551   0.996  R_SEL1<0>_SW0 (N127)
+     LUT4:I1->O           29   0.551   2.175  R_SEL1<0> (R_SEL1<0>)
+     LUT4:I0->O            1   0.551   0.869  CPU_REG/data_out1<0>12 (CPU_REG/data_out1<0>12)
+     LUT4:I2->O           16   0.551   1.305  CPU_REG/data_out1<0>69 (regout1_0_OBUF)
+     LUT3_D:I2->LO         1   0.551   0.126  CPU_ALU/ALU_ADC/INT_CARRY<1>1 (N364)
+     LUT4:I3->O            5   0.551   0.921  CPU_ALU/ALU_SBB/INT_CARRY2_2_or00001 (CPU_ALU/ALU_SBB/INT_CARRY2<2>)
+     MUXF5:S->O            7   0.621   1.066  CPU_ALU/ALU_SBB/INT_CARRY2_4_or00001 (CPU_ALU/ALU_SBB/INT_CARRY2<4>)
+     MUXF5:S->O            3   0.621   0.933  CPU_ALU/ALU_SBB/Mxor_INT_BUS3<7>_Result1 (CPU_ALU/SBB_N)
+     LUT4_D:I3->O          1   0.551   0.827  CPU_ALU/result<7>147_SW0 (N142)
+     LUT4:I3->O            1   0.551   0.801  CPU_ALU/result<7>147 (alout_7_OBUF)
+     OBUF:I->O                 5.644          alout_7_OBUF (alout<7>)
+    ----------------------------------------
+    Total                     27.866ns (13.217ns logic, 14.649ns route)
+                                       (47.4% logic, 52.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.23 secs
+ 
+--> 
+
+Total memory usage is 197048 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   92 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

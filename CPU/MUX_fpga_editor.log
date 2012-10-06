@@ -1,0 +1,35 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 M.81d
+#Current Working Directory:
+#:D   J:\353\CPU
+#Date/Time:
+#:T   Sun Oct 09 14:22:21 2011
+#------------------------------
+	#Reading MUX.ncd...
+	#Loading device for application Rf_Device from file '3s50a.nph' in environment C:\Xilinx\12.4\ISE_DS\ISE\.
+	#   "MUX" is an NCD, version 3.2, device xc3s50a, package tq144, speed -4
+	#Design creation date: 2011.10.09.01.21.53
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'A'
+	#3
+unselect comp 'A'
+	#4
+select -k comp 'B'
+	#5
+unselect comp 'B'
+	#6
+select -k comp 'F'
+	#7
+unselect comp 'F'
+	#8
+select -k comp 'F_OBUF'
+	#9
+unselect comp 'F_OBUF'
+	#10
+select -k comp 'SEL'

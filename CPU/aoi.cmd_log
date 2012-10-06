@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "J:/353/CPU/aoi.xst" -ofn "J:/353/CPU/aoi.syr" 
+xst -intstyle ise -ifn "J:/353/CPU/aoi.xst" -ofn "J:/353/CPU/aoi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 aoi.ngc aoi.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o aoi_map.ncd aoi.ngd aoi.pcf 
+par -w -intstyle ise -ol high -t 1 aoi_map.ncd aoi.ncd aoi.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml aoi.twx aoi.ncd -o aoi.twr aoi.pcf 

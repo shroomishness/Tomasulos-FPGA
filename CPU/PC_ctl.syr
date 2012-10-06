@@ -1,0 +1,409 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: PC_ctl.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PC_ctl.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PC_ctl"
+Output Format                      : NGC
+Target Device                      : xc3s50a-4-tq144
+
+---- Source Options
+Top Module Name                    : PC_ctl
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/PC.vhd" in Library work.
+Architecture regar of Entity pc_reg is up to date.
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/PC_ctl.vhd" in Library work.
+Entity <pc_ctl> compiled.
+Entity <pc_ctl> (Architecture <structure>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PC_ctl> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <PC_REG> in library <work> (architecture <regar>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <PC_ctl> in library <work> (Architecture <structure>).
+WARNING:Xst:819 - "//maxwell/zjf10$/353/CPU/PC_ctl.vhd" line 55: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <op>, <PC_ctl_in>, <REG_out>
+Entity <PC_ctl> analyzed. Unit <PC_ctl> generated.
+
+Analyzing Entity <PC_REG> in library <work> (Architecture <regar>).
+WARNING:Xst:819 - "//maxwell/zjf10$/353/CPU/PC.vhd" line 43: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <PC_in>
+Entity <PC_REG> analyzed. Unit <PC_REG> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <PC_REG>.
+    Related source file is "//maxwell/zjf10$/353/CPU/PC.vhd".
+WARNING:Xst:737 - Found 16-bit latch for signal <PC_out>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <PC_REG> synthesized.
+
+
+Synthesizing Unit <PC_ctl>.
+    Related source file is "//maxwell/zjf10$/353/CPU/PC_ctl.vhd".
+WARNING:Xst:737 - Found 16-bit latch for signal <REG_in>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 16-bit adder for signal <REG_in$addsub0000>.
+    Found 16-bit 4-to-1 multiplexer for signal <REG_in$mux0001> created at line 58.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  16 Multiplexer(s).
+Unit <PC_ctl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Latches                                              : 2
+ 16-bit latch                                          : 2
+# Multiplexers                                         : 1
+ 16-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Latches                                              : 2
+ 16-bit latch                                          : 2
+# Multiplexers                                         : 1
+ 16-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PC_ctl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PC_ctl, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PC_ctl.ngr
+Top Level Output File Name         : PC_ctl
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 35
+
+Cell Usage :
+# BELS                             : 80
+#      GND                         : 1
+#      LUT1                        : 8
+#      LUT3                        : 32
+#      LUT4                        : 8
+#      MUXCY                       : 15
+#      XORCY                       : 16
+# FlipFlops/Latches                : 32
+#      LD                          : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 34
+#      IBUF                        : 18
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-4 
+
+ Number of Slices:                       33  out of    704     4%  
+ Number of Slice Flip Flops:             32  out of   1408     2%  
+ Number of 4 input LUTs:                 48  out of   1408     3%  
+ Number of IOs:                          35
+ Number of bonded IOBs:                  35  out of    108    32%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+acti                               | BUFGP                  | 32    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.564ns (Maximum Frequency: 179.727MHz)
+   Minimum input arrival time before clock: 6.565ns
+   Maximum output required time after clock: 5.695ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'acti'
+  Clock period: 5.564ns (frequency: 179.727MHz)
+  Total number of paths / destination ports: 260 / 32
+-------------------------------------------------------------------------
+Delay:               5.564ns (Levels of Logic = 18)
+  Source:            REGGIE/PC_out_0 (LATCH)
+  Destination:       REG_in_15 (LATCH)
+  Source Clock:      acti falling
+  Destination Clock: acti falling
+
+  Data Path: REGGIE/PC_out_0 to REG_in_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.728   0.450  REGGIE/PC_out_0 (REGGIE/PC_out_0)
+     LUT4:I3->O            1   0.648   0.000  Madd_REG_in_addsub0000_lut<0> (Madd_REG_in_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  Madd_REG_in_addsub0000_cy<0> (Madd_REG_in_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<1> (Madd_REG_in_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<2> (Madd_REG_in_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<3> (Madd_REG_in_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<4> (Madd_REG_in_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<5> (Madd_REG_in_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<6> (Madd_REG_in_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<7> (Madd_REG_in_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<8> (Madd_REG_in_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<9> (Madd_REG_in_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<10> (Madd_REG_in_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<11> (Madd_REG_in_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<12> (Madd_REG_in_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<13> (Madd_REG_in_addsub0000_cy<13>)
+     MUXCY:CI->O           0   0.065   0.000  Madd_REG_in_addsub0000_cy<14> (Madd_REG_in_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.844   0.452  Madd_REG_in_addsub0000_xor<15> (REG_in_addsub0000<15>)
+     LUT3:I2->O            1   0.648   0.000  Mmux_REG_in_mux000114 (REG_in_mux0001<15>)
+     LD:D                      0.252          REG_in_15
+    ----------------------------------------
+    Total                      5.564ns (4.662ns logic, 0.902ns route)
+                                       (83.8% logic, 16.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'acti'
+  Total number of paths / destination ports: 348 / 16
+-------------------------------------------------------------------------
+Offset:              6.565ns (Levels of Logic = 18)
+  Source:            op<1> (PAD)
+  Destination:       REG_in_15 (LATCH)
+  Destination Clock: acti falling
+
+  Data Path: op<1> to REG_in_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   0.849   1.395  op_1_IBUF (op_1_IBUF)
+     LUT4:I0->O            1   0.648   0.000  Madd_REG_in_addsub0000_lut<1> (Madd_REG_in_addsub0000_lut<1>)
+     MUXCY:S->O            1   0.632   0.000  Madd_REG_in_addsub0000_cy<1> (Madd_REG_in_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<2> (Madd_REG_in_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<3> (Madd_REG_in_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<4> (Madd_REG_in_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<5> (Madd_REG_in_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<6> (Madd_REG_in_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<7> (Madd_REG_in_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<8> (Madd_REG_in_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<9> (Madd_REG_in_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<10> (Madd_REG_in_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<11> (Madd_REG_in_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<12> (Madd_REG_in_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_REG_in_addsub0000_cy<13> (Madd_REG_in_addsub0000_cy<13>)
+     MUXCY:CI->O           0   0.065   0.000  Madd_REG_in_addsub0000_cy<14> (Madd_REG_in_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.844   0.452  Madd_REG_in_addsub0000_xor<15> (REG_in_addsub0000<15>)
+     LUT3:I2->O            1   0.648   0.000  Mmux_REG_in_mux000114 (REG_in_mux0001<15>)
+     LD:D                      0.252          REG_in_15
+    ----------------------------------------
+    Total                      6.565ns (4.718ns logic, 1.847ns route)
+                                       (71.9% logic, 28.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'acti'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.695ns (Levels of Logic = 1)
+  Source:            REGGIE/PC_out_15 (LATCH)
+  Destination:       PC_ctl_out<15> (PAD)
+  Source Clock:      acti falling
+
+  Data Path: REGGIE/PC_out_15 to PC_ctl_out<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.728   0.447  REGGIE/PC_out_15 (REGGIE/PC_out_15)
+     OBUF:I->O                 4.520          PC_ctl_out_15_OBUF (PC_ctl_out<15>)
+    ----------------------------------------
+    Total                      5.695ns (5.248ns logic, 0.447ns route)
+                                       (92.2% logic, 7.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.14 secs
+ 
+--> 
+
+Total memory usage is 134864 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

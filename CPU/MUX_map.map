@@ -1,0 +1,67 @@
+Release 12.4 Map M.81d (nt)
+Xilinx Map Application Log File for Design 'MUX'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off
+-c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+Target Device  : xc3s50a
+Target Package : tq144
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.52.76.2 $
+Mapped Date    : Mon Oct 10 10:47:32 2011
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc3s50a' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:                 1 out of   1,408    1%
+Logic Distribution:
+  Number of occupied Slices:              1 out of     704    1%
+    Number of Slices containing only related logic:       1 out of       1 100%
+    Number of Slices containing unrelated logic:          0 out of       1   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:           1 out of   1,408    1%
+  Number of bonded IOBs:                  4 out of     108    3%
+
+Average Fanout of Non-Clock Nets:                1.00
+
+Peak Memory Usage:  162 MB
+Total REAL time to MAP completion:  7 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "MUX_map.mrp" for details.

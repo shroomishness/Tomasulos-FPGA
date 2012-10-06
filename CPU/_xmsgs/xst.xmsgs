@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/CU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CU/CPU_STRUCT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/CU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ADR_ctl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/ADD_ctl.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ADR_ctl/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/ADD_ctl.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ALU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/ALU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ALU/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/ALU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC_ctl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/PC_ctl.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC_ctl/STRUCTURE</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/PC_ctl.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/Register.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/Register.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/SR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SR/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/SR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ADDC</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/ADDC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ADDC/addwc</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/ADDC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ADD_R</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/ADD_R.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ADD_R/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/ADD_R.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BIT_AND</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/BIT_AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BIT_AND/bitand</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/BIT_AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BIT_NOT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/BIT_NOT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BIT_NOT/bitnot</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/BIT_NOT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BIT_OR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/BIT_OR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BIT_OR/bitor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/BIT_OR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BIT_XOR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/BIT_XOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BIT_XOR/bitxor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/BIT_XOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/NEG</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/NEG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/NEG/neg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/NEG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC_REG</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/PC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC_REG/regar</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/PC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SBB</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/SBB.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SBB/sbb</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//maxwell/zjf10$/353/CPU/SBB.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd</arg>&quot; line <arg fmt="%d" index="2">207</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;opcode&gt;, &lt;ALU_out&gt;, &lt;ldd&gt;, &lt;ins_data&gt;, &lt;ADR_out&gt;, &lt;R_data_out2&gt;, &lt;dat_data&gt;, &lt;dat_ack&gt;, &lt;R_data_out1&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd</arg>&quot; line <arg fmt="%d" index="2">61</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;op&gt;, &lt;PC_ctl_in&gt;, &lt;REG_out&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd</arg>&quot; line <arg fmt="%d" index="2">33</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;PC_in&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd</arg>&quot; line <arg fmt="%d" index="2">60</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;SEL1&gt;, &lt;data_in&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;op&gt;, &lt;ADR_in&gt;, &lt;Curr_adr&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd</arg>&quot; line <arg fmt="%d" index="2">45</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;SEL&gt;, &lt;ADD_in&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd</arg>&quot; line <arg fmt="%d" index="2">30</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;SR_in&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">r0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">r1</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">r2</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">r3</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">r4</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">r5</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">r6</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">r7</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">16</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">SR_out</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">in2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">INT_CARRY1&lt;8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">in2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">addnum&lt;8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">16</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">PC_out</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">16</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">a0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">16</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">a1</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">16</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">a2</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">16</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">REG_in</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_1</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_2</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_3</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_4</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_5</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_6</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_7</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_8</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_9</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_10</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_11</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_12</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_13</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_14</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ADR_buffer_15</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="1306" delta="old" >Output &lt;<arg fmt="%s" index="1">ins_req</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ins_ack</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">r2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">r1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">SR_out&lt;15:3&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">SR_in&lt;15:3&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">R_data_in</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">dat_data</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CPU_SR/SR_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CU</arg>&gt;.
+</msg>
+
+</messages>
+

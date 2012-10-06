@@ -1,0 +1,24 @@
+#Please do not modify this file by hand
+XmpVersion: 12.4
+VerMgmt: 12.4
+IntStyle: default
+MHS File: cpu.mhs
+MSS File: cpu.mss
+Architecture: spartan3a
+Device: xc3s50a
+Package: tq144
+SpeedGrade: -5
+UserCmd1: 
+UserCmd1Type: 0
+UserCmd2: 
+UserCmd2Type: 0
+GenSimTB: 0
+SdkExportBmmBit: 1
+SdkExportDir: SDK/SDK_Export
+InsertNoPads: 0
+WarnForEAArch: 1
+HdlLang: VHDL
+SimModel: BEHAVIORAL
+UcfFile: data/system.ucf
+EnableParTimingError: 1
+ShowLicenseDialog: 1

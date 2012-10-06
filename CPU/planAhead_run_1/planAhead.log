@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Sat Oct 06 11:54:30 2012
+# Process ID: 5012
+# Log file: E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/planAhead_run_1/planAhead.log
+# Journal file: E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-Licensing 3] Your PlanAhead license expires in -494 day(s)
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\PROGRAMS\Xilinx\12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\PROGRAMS\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\PROGRAMS\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source {E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/pa.fromNetlist.tcl}
+# create_project -name CPU -dir "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/planAhead_run_1" -part xc3s400ft256-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU} }
+# set_param project.pinAheadLayout  yes
+# set_param project.paUcfFile  "CU.ucf"
+# add_files "CU.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Run is defaulting to constrset part: xc3s400ft256-4
+INFO: [HD-EDIFIN 0] Parsing Edif File '.\.HDI-PlanAhead-5012-dsl7w32-05\ngc2edif\CU.edif'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File '.\.HDI-PlanAhead-5012-dsl7w32-05\ngc2edif\CU.edif'
+INFO: [HD-ArchReader 18] Reading macro library C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3/hd_int_macros.edn'
+WARN: [HD-NETLIST 3] Netlist 'CU' is not ideal for floorplanning, since the cellview 'CU' defined in file 'CU.ngc' contains large number of primitives. Please consider enabling hierarchy in synthesis before floorplan. You can enable hierarchy in XST by setting '-keep_hierarchy=yes' or '-netlist_hierarchy=rebuilt' flags.
+INFO: [HD-ArchReader 7] Loading clock regions from C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/xc3s400/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/xc3s400/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/xc3s400/ft256/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/xc3s400/ft256/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\CU.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\CU.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.4 by hdbuild
+          on  Tue Nov  9 17:32:56 MST 2010
+  Report: by akm81 on host dsl7w32-05, pid 5012
+          on Sat Oct 06 11:55:01 2012
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 0
+
+REPORT DETAILS
+INFO: [HD-LIB 0] Reading timing library C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/spartan3-4.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/PROGRAMS/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/spartan3-4.lib .
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

@@ -1,0 +1,146 @@
+V3 94
+FL //maxwell/zjf10$/353/CPU/ADD.vhd 2011/10/10.14:25:26 M.81d
+EN work/ADD 1318218040 FL //maxwell/zjf10$/353/CPU/ADD.vhd PB ieee/std_logic_1164 1290154108
+AR work/ADD/add 1318218041 \
+      FL //maxwell/zjf10$/353/CPU/ADD.vhd EN work/ADD 1318218040
+FL //maxwell/zjf10$/353/CPU/ADDC.vhd 2011/10/13.17:19:29 M.81d
+FL //maxwell/zjf10$/353/CPU/ADD_ctl.vhd 2011/10/13.16:41:24 M.81d
+FL //maxwell/zjf10$/353/CPU/ADD_R.vhd 2011/10/13.16:46:13 M.81d
+FL //maxwell/zjf10$/353/CPU/ALU.vhd 2011/10/13.17:04:21 M.81d
+FL //maxwell/zjf10$/353/CPU/aoi.vhd 2011/10/08.14:24:59 M.81d
+EN work/aoi 1318123305 FL //maxwell/zjf10$/353/CPU/aoi.vhd PB ieee/std_logic_1164 1290154108
+AR work/aoi/V1 1318123306 \
+      FL //maxwell/zjf10$/353/CPU/aoi.vhd EN work/aoi 1318123305
+FL //maxwell/zjf10$/353/CPU/BIT_AND.vhd 2011/10/14.09:44:46 M.81d
+FL //maxwell/zjf10$/353/CPU/BIT_NOT.vhd 2011/10/14.09:44:38 M.81d
+FL //maxwell/zjf10$/353/CPU/BIT_OR.vhd 2011/10/14.09:44:50 M.81d
+FL //maxwell/zjf10$/353/CPU/BIT_XOR.vhd 2011/10/14.09:44:55 M.81d
+FL //maxwell/zjf10$/353/CPU/CMP.vhd 2011/10/09.15:00:51 M.81d
+EN work/CMP 1318218050 FL //maxwell/zjf10$/353/CPU/CMP.vhd PB ieee/std_logic_1164 1290154108
+AR work/CMP/compare 1318218051 \
+      FL //maxwell/zjf10$/353/CPU/CMP.vhd EN work/CMP 1318218050
+FL //maxwell/zjf10$/353/CPU/CU.vhd 2011/10/13.16:24:34 M.81d
+FL //maxwell/zjf10$/353/CPU/INV.vhd 2011/10/08.14:11:15 M.81d
+EN work/INV 1318196838 FL //maxwell/zjf10$/353/CPU/INV.vhd PB ieee/std_logic_1164 1290154108
+AR work/INV/Behavioral 1318196839 \
+      FL //maxwell/zjf10$/353/CPU/INV.vhd EN work/INV 1318196838
+FL //maxwell/zjf10$/353/CPU/MUX.vhd 2011/10/08.14:16:02 M.81d
+EN work/MUX 1318196840 FL //maxwell/zjf10$/353/CPU/MUX.vhd PB ieee/std_logic_1164 1290154108
+AR work/MUX/STRUCTURE 1318196841 \
+      FL //maxwell/zjf10$/353/CPU/MUX.vhd EN work/MUX 1318196840 CP INV CP AOI
+FL //maxwell/zjf10$/353/CPU/NEG.vhd 2011/10/13.17:37:46 M.81d
+FL //maxwell/zjf10$/353/CPU/PC.vhd 2011/10/13.16:31:24 M.81d
+FL //maxwell/zjf10$/353/CPU/PC_ctl.vhd 2011/10/13.16:30:09 M.81d
+FL //maxwell/zjf10$/353/CPU/Register.vhd 2011/10/13.16:54:20 M.81d
+FL //maxwell/zjf10$/353/CPU/SBB.vhd 2011/10/14.09:47:32 M.81d
+FL //maxwell/zjf10$/353/CPU/SR.vhd 2011/10/13.16:32:57 M.81d
+FL //maxwell/zjf10$/353/CPU/SUB.vhd 2011/10/10.14:59:16 M.81d
+EN work/SUB 1318218044 FL //maxwell/zjf10$/353/CPU/SUB.vhd PB ieee/std_logic_1164 1290154108
+AR work/SUB/subtra 1318218045 \
+      FL //maxwell/zjf10$/353/CPU/SUB.vhd EN work/SUB 1318218044
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" 2011/10/13.17:19:29 M.81d
+EN work/ADDC 1349477023 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ADDC/addwc 1349477024 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" \
+      EN work/ADDC 1349477023
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" 2011/10/13.16:41:24 M.81d
+EN work/ADR_ctl 1349477035 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" \
+      PB ieee/std_logic_1164 1290154108 PB ieee/STD_LOGIC_UNSIGNED 1290154110
+AR work/ADR_ctl/Behavioral 1349477036 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" \
+      EN work/ADR_ctl 1349477035 CP ADD_R
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" 2011/10/13.16:46:13 M.81d
+EN work/ADD_R 1349477011 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ADD_R/struct 1349477012 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" \
+      EN work/ADD_R 1349477011
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" 2011/10/13.17:04:21 M.81d
+EN work/ALU 1349477029 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ALU/Behavioral 1349477030 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" \
+      EN work/ALU 1349477029 CP BIT_AND CP BIT_OR CP BIT_NOT CP BIT_XOR CP ADDC CP SBB \
+      CP NEG
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" 2011/10/14.09:44:46 M.81d
+EN work/BIT_AND 1349477015 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/BIT_AND/bitand 1349477016 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" \
+      EN work/BIT_AND 1349477015
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" 2011/10/14.09:44:38 M.81d
+EN work/BIT_NOT 1349477019 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/BIT_NOT/bitnot 1349477020 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" \
+      EN work/BIT_NOT 1349477019
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" 2011/10/14.09:44:50 M.81d
+EN work/BIT_OR 1349477017 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/BIT_OR/bitor 1349477018 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" \
+      EN work/BIT_OR 1349477017
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" 2011/10/14.09:44:55 M.81d
+EN work/BIT_XOR 1349477021 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/BIT_XOR/bitxor 1349477022 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" \
+      EN work/BIT_XOR 1349477021
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" 2011/10/13.16:24:34 M.81d
+EN work/CU 1349477039 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/CU/CPU_STRUCT 1349477040 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" \
+      EN work/CU 1349477039 CP ALU CP PC_ctl CP Reg CP ADR_ctl CP SR
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" 2011/10/13.17:37:46 M.81d
+EN work/NEG 1349477027 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/NEG/neg 1349477028 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" \
+      EN work/NEG 1349477027
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" 2011/10/13.16:31:24 M.81d
+EN work/PC_REG 1349477013 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/PC_REG/regar 1349477014 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" \
+      EN work/PC_REG 1349477013
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" 2011/10/13.16:30:09 M.81d
+EN work/PC_ctl 1349477031 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" \
+      PB ieee/std_logic_1164 1290154108 PB ieee/STD_LOGIC_UNSIGNED 1290154110
+AR work/PC_ctl/STRUCTURE 1349477032 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" \
+      EN work/PC_ctl 1349477031 CP PC_REG
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" 2011/10/13.16:54:20 M.81d
+EN work/Reg 1349477033 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/Reg/Behavioral 1349477034 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" \
+      EN work/Reg 1349477033
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" 2011/10/14.09:47:32 M.81d
+EN work/SBB 1349477025 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/SBB/sbb 1349477026 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" \
+      EN work/SBB 1349477025
+FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" 2011/10/13.16:32:57 M.81d
+EN work/SR 1349477037 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/SR/Behavioral 1349477038 \
+      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" \
+      EN work/SR 1349477037

@@ -1,0 +1,570 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf
+
+Design file:              ALU.ncd
+Physical constraint file: ALU.pcf
+Device,package,speed:     xc3s50a,tq144,-4 (PRODUCTION 1.41 2010-11-18)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock SEL<0>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Cin         |    9.654(F)|   -4.697(F)|Cout_not0001      |   0.000|
+            |    8.667(F)|   -1.239(F)|ZFlag_not0001     |   0.000|
+in1<0>      |   10.210(F)|   -5.143(F)|Cout_not0001      |   0.000|
+            |    9.223(F)|   -1.644(F)|ZFlag_not0001     |   0.000|
+in1<1>      |    9.470(F)|   -4.566(F)|Cout_not0001      |   0.000|
+            |    8.503(F)|   -1.324(F)|ZFlag_not0001     |   0.000|
+in1<2>      |    9.101(F)|   -4.299(F)|Cout_not0001      |   0.000|
+            |    8.168(F)|   -1.973(F)|ZFlag_not0001     |   0.000|
+in1<3>      |    7.076(F)|   -2.886(F)|Cout_not0001      |   0.000|
+            |    6.401(F)|   -0.065(F)|ZFlag_not0001     |   0.000|
+in1<4>      |    6.214(F)|   -1.561(F)|Cout_not0001      |   0.000|
+            |    4.746(F)|   -0.311(F)|ZFlag_not0001     |   0.000|
+in1<5>      |    5.061(F)|   -0.667(F)|Cout_not0001      |   0.000|
+            |    3.628(F)|   -0.082(F)|ZFlag_not0001     |   0.000|
+in1<6>      |    4.609(F)|   -0.007(F)|Cout_not0001      |   0.000|
+            |    2.844(F)|    0.194(F)|ZFlag_not0001     |   0.000|
+in1<7>      |    4.025(F)|   -0.094(F)|Cout_not0001      |   0.000|
+            |    4.579(F)|   -0.986(F)|ZFlag_not0001     |   0.000|
+in2<0>      |   10.015(F)|   -1.572(F)|Cout_not0001      |   0.000|
+            |    9.028(F)|   -1.330(F)|ZFlag_not0001     |   0.000|
+in2<1>      |    8.707(F)|   -1.548(F)|Cout_not0001      |   0.000|
+            |    8.480(F)|   -1.306(F)|ZFlag_not0001     |   0.000|
+in2<2>      |    8.528(F)|   -1.853(F)|Cout_not0001      |   0.000|
+            |    8.070(F)|   -1.590(F)|ZFlag_not0001     |   0.000|
+in2<3>      |    7.378(F)|   -1.823(F)|Cout_not0001      |   0.000|
+            |    7.602(F)|   -1.581(F)|ZFlag_not0001     |   0.000|
+in2<4>      |    6.609(F)|   -1.066(F)|Cout_not0001      |   0.000|
+            |    5.570(F)|   -0.434(F)|ZFlag_not0001     |   0.000|
+in2<5>      |    5.542(F)|   -1.138(F)|Cout_not0001      |   0.000|
+            |    5.660(F)|   -1.099(F)|ZFlag_not0001     |   0.000|
+in2<6>      |    4.369(F)|   -0.395(F)|Cout_not0001      |   0.000|
+            |    4.923(F)|   -1.145(F)|ZFlag_not0001     |   0.000|
+in2<7>      |    4.652(F)|   -0.098(F)|Cout_not0001      |   0.000|
+            |    5.206(F)|   -1.488(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock SEL<1>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Cin         |    9.875(F)|   -4.939(F)|Cout_not0001      |   0.000|
+            |    8.212(F)|   -0.669(F)|ZFlag_not0001     |   0.000|
+in1<0>      |   10.431(F)|   -5.385(F)|Cout_not0001      |   0.000|
+            |    8.768(F)|   -1.074(F)|ZFlag_not0001     |   0.000|
+in1<1>      |    9.691(F)|   -4.808(F)|Cout_not0001      |   0.000|
+            |    8.048(F)|   -0.754(F)|ZFlag_not0001     |   0.000|
+in1<2>      |    9.322(F)|   -4.541(F)|Cout_not0001      |   0.000|
+            |    7.713(F)|   -1.403(F)|ZFlag_not0001     |   0.000|
+in1<3>      |    7.297(F)|   -3.128(F)|Cout_not0001      |   0.000|
+            |    5.946(F)|    0.505(F)|ZFlag_not0001     |   0.000|
+in1<4>      |    6.435(F)|   -1.803(F)|Cout_not0001      |   0.000|
+            |    4.291(F)|    0.259(F)|ZFlag_not0001     |   0.000|
+in1<5>      |    5.282(F)|   -0.909(F)|Cout_not0001      |   0.000|
+            |    3.173(F)|    0.488(F)|ZFlag_not0001     |   0.000|
+in1<6>      |    4.830(F)|   -0.249(F)|Cout_not0001      |   0.000|
+            |    2.389(F)|    0.764(F)|ZFlag_not0001     |   0.000|
+in1<7>      |    4.246(F)|   -0.336(F)|Cout_not0001      |   0.000|
+            |    4.124(F)|   -0.416(F)|ZFlag_not0001     |   0.000|
+in2<0>      |   10.236(F)|   -1.814(F)|Cout_not0001      |   0.000|
+            |    8.573(F)|   -0.760(F)|ZFlag_not0001     |   0.000|
+in2<1>      |    8.928(F)|   -1.790(F)|Cout_not0001      |   0.000|
+            |    8.025(F)|   -0.736(F)|ZFlag_not0001     |   0.000|
+in2<2>      |    8.749(F)|   -2.095(F)|Cout_not0001      |   0.000|
+            |    7.615(F)|   -1.020(F)|ZFlag_not0001     |   0.000|
+in2<3>      |    7.599(F)|   -2.065(F)|Cout_not0001      |   0.000|
+            |    7.147(F)|   -1.011(F)|ZFlag_not0001     |   0.000|
+in2<4>      |    6.830(F)|   -1.308(F)|Cout_not0001      |   0.000|
+            |    5.115(F)|    0.136(F)|ZFlag_not0001     |   0.000|
+in2<5>      |    5.763(F)|   -1.380(F)|Cout_not0001      |   0.000|
+            |    5.205(F)|   -0.529(F)|ZFlag_not0001     |   0.000|
+in2<6>      |    4.590(F)|   -0.637(F)|Cout_not0001      |   0.000|
+            |    4.468(F)|   -0.575(F)|ZFlag_not0001     |   0.000|
+in2<7>      |    4.873(F)|   -0.340(F)|Cout_not0001      |   0.000|
+            |    4.751(F)|   -0.918(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock SEL<2>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Cin         |    9.891(F)|   -5.004(F)|Cout_not0001      |   0.000|
+            |    8.194(F)|   -0.647(F)|ZFlag_not0001     |   0.000|
+in1<0>      |   10.447(F)|   -5.450(F)|Cout_not0001      |   0.000|
+            |    8.750(F)|   -1.052(F)|ZFlag_not0001     |   0.000|
+in1<1>      |    9.707(F)|   -4.873(F)|Cout_not0001      |   0.000|
+            |    8.030(F)|   -0.732(F)|ZFlag_not0001     |   0.000|
+in1<2>      |    9.338(F)|   -4.606(F)|Cout_not0001      |   0.000|
+            |    7.695(F)|   -1.381(F)|ZFlag_not0001     |   0.000|
+in1<3>      |    7.313(F)|   -3.193(F)|Cout_not0001      |   0.000|
+            |    5.928(F)|    0.527(F)|ZFlag_not0001     |   0.000|
+in1<4>      |    6.451(F)|   -1.868(F)|Cout_not0001      |   0.000|
+            |    4.273(F)|    0.281(F)|ZFlag_not0001     |   0.000|
+in1<5>      |    5.298(F)|   -0.974(F)|Cout_not0001      |   0.000|
+            |    3.155(F)|    0.510(F)|ZFlag_not0001     |   0.000|
+in1<6>      |    4.846(F)|   -0.314(F)|Cout_not0001      |   0.000|
+            |    2.371(F)|    0.786(F)|ZFlag_not0001     |   0.000|
+in1<7>      |    4.262(F)|   -0.401(F)|Cout_not0001      |   0.000|
+            |    4.106(F)|   -0.394(F)|ZFlag_not0001     |   0.000|
+in2<0>      |   10.252(F)|   -1.879(F)|Cout_not0001      |   0.000|
+            |    8.555(F)|   -0.738(F)|ZFlag_not0001     |   0.000|
+in2<1>      |    8.944(F)|   -1.855(F)|Cout_not0001      |   0.000|
+            |    8.007(F)|   -0.714(F)|ZFlag_not0001     |   0.000|
+in2<2>      |    8.765(F)|   -2.160(F)|Cout_not0001      |   0.000|
+            |    7.597(F)|   -0.998(F)|ZFlag_not0001     |   0.000|
+in2<3>      |    7.615(F)|   -2.130(F)|Cout_not0001      |   0.000|
+            |    7.129(F)|   -0.989(F)|ZFlag_not0001     |   0.000|
+in2<4>      |    6.846(F)|   -1.373(F)|Cout_not0001      |   0.000|
+            |    5.097(F)|    0.158(F)|ZFlag_not0001     |   0.000|
+in2<5>      |    5.779(F)|   -1.445(F)|Cout_not0001      |   0.000|
+            |    5.187(F)|   -0.507(F)|ZFlag_not0001     |   0.000|
+in2<6>      |    4.606(F)|   -0.702(F)|Cout_not0001      |   0.000|
+            |    4.450(F)|   -0.553(F)|ZFlag_not0001     |   0.000|
+in2<7>      |    4.889(F)|   -0.405(F)|Cout_not0001      |   0.000|
+            |    4.733(F)|   -0.896(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock SEL<3>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Cin         |    9.907(F)|   -5.024(F)|Cout_not0001      |   0.000|
+            |    7.804(F)|   -0.160(F)|ZFlag_not0001     |   0.000|
+in1<0>      |   10.463(F)|   -5.470(F)|Cout_not0001      |   0.000|
+            |    8.360(F)|   -0.565(F)|ZFlag_not0001     |   0.000|
+in1<1>      |    9.723(F)|   -4.893(F)|Cout_not0001      |   0.000|
+            |    7.640(F)|   -0.245(F)|ZFlag_not0001     |   0.000|
+in1<2>      |    9.354(F)|   -4.626(F)|Cout_not0001      |   0.000|
+            |    7.305(F)|   -0.894(F)|ZFlag_not0001     |   0.000|
+in1<3>      |    7.329(F)|   -3.213(F)|Cout_not0001      |   0.000|
+            |    5.538(F)|    1.014(F)|ZFlag_not0001     |   0.000|
+in1<4>      |    6.467(F)|   -1.888(F)|Cout_not0001      |   0.000|
+            |    3.883(F)|    0.768(F)|ZFlag_not0001     |   0.000|
+in1<5>      |    5.314(F)|   -0.994(F)|Cout_not0001      |   0.000|
+            |    2.765(F)|    0.997(F)|ZFlag_not0001     |   0.000|
+in1<6>      |    4.862(F)|   -0.334(F)|Cout_not0001      |   0.000|
+            |    1.981(F)|    1.273(F)|ZFlag_not0001     |   0.000|
+in1<7>      |    4.278(F)|   -0.421(F)|Cout_not0001      |   0.000|
+            |    3.716(F)|    0.093(F)|ZFlag_not0001     |   0.000|
+in2<0>      |   10.268(F)|   -1.899(F)|Cout_not0001      |   0.000|
+            |    8.165(F)|   -0.251(F)|ZFlag_not0001     |   0.000|
+in2<1>      |    8.960(F)|   -1.875(F)|Cout_not0001      |   0.000|
+            |    7.617(F)|   -0.227(F)|ZFlag_not0001     |   0.000|
+in2<2>      |    8.781(F)|   -2.180(F)|Cout_not0001      |   0.000|
+            |    7.207(F)|   -0.511(F)|ZFlag_not0001     |   0.000|
+in2<3>      |    7.631(F)|   -2.150(F)|Cout_not0001      |   0.000|
+            |    6.739(F)|   -0.502(F)|ZFlag_not0001     |   0.000|
+in2<4>      |    6.862(F)|   -1.393(F)|Cout_not0001      |   0.000|
+            |    4.707(F)|    0.645(F)|ZFlag_not0001     |   0.000|
+in2<5>      |    5.795(F)|   -1.465(F)|Cout_not0001      |   0.000|
+            |    4.797(F)|   -0.020(F)|ZFlag_not0001     |   0.000|
+in2<6>      |    4.622(F)|   -0.722(F)|Cout_not0001      |   0.000|
+            |    4.060(F)|   -0.066(F)|ZFlag_not0001     |   0.000|
+in2<7>      |    4.905(F)|   -0.425(F)|Cout_not0001      |   0.000|
+            |    4.343(F)|   -0.409(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock SEL<4>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Cin         |    9.752(F)|   -4.830(F)|Cout_not0001      |   0.000|
+            |    7.704(F)|   -0.035(F)|ZFlag_not0001     |   0.000|
+in1<0>      |   10.308(F)|   -5.276(F)|Cout_not0001      |   0.000|
+            |    8.260(F)|   -0.440(F)|ZFlag_not0001     |   0.000|
+in1<1>      |    9.568(F)|   -4.699(F)|Cout_not0001      |   0.000|
+            |    7.540(F)|   -0.120(F)|ZFlag_not0001     |   0.000|
+in1<2>      |    9.199(F)|   -4.432(F)|Cout_not0001      |   0.000|
+            |    7.205(F)|   -0.769(F)|ZFlag_not0001     |   0.000|
+in1<3>      |    7.174(F)|   -3.019(F)|Cout_not0001      |   0.000|
+            |    5.438(F)|    1.139(F)|ZFlag_not0001     |   0.000|
+in1<4>      |    6.312(F)|   -1.694(F)|Cout_not0001      |   0.000|
+            |    3.783(F)|    0.893(F)|ZFlag_not0001     |   0.000|
+in1<5>      |    5.159(F)|   -0.800(F)|Cout_not0001      |   0.000|
+            |    2.665(F)|    1.122(F)|ZFlag_not0001     |   0.000|
+in1<6>      |    4.707(F)|   -0.140(F)|Cout_not0001      |   0.000|
+            |    1.881(F)|    1.398(F)|ZFlag_not0001     |   0.000|
+in1<7>      |    4.123(F)|   -0.227(F)|Cout_not0001      |   0.000|
+            |    3.616(F)|    0.218(F)|ZFlag_not0001     |   0.000|
+in2<0>      |   10.113(F)|   -1.705(F)|Cout_not0001      |   0.000|
+            |    8.065(F)|   -0.126(F)|ZFlag_not0001     |   0.000|
+in2<1>      |    8.805(F)|   -1.681(F)|Cout_not0001      |   0.000|
+            |    7.517(F)|   -0.102(F)|ZFlag_not0001     |   0.000|
+in2<2>      |    8.626(F)|   -1.986(F)|Cout_not0001      |   0.000|
+            |    7.107(F)|   -0.386(F)|ZFlag_not0001     |   0.000|
+in2<3>      |    7.476(F)|   -1.956(F)|Cout_not0001      |   0.000|
+            |    6.639(F)|   -0.377(F)|ZFlag_not0001     |   0.000|
+in2<4>      |    6.707(F)|   -1.199(F)|Cout_not0001      |   0.000|
+            |    4.607(F)|    0.770(F)|ZFlag_not0001     |   0.000|
+in2<5>      |    5.640(F)|   -1.271(F)|Cout_not0001      |   0.000|
+            |    4.697(F)|    0.105(F)|ZFlag_not0001     |   0.000|
+in2<6>      |    4.467(F)|   -0.528(F)|Cout_not0001      |   0.000|
+            |    3.960(F)|    0.059(F)|ZFlag_not0001     |   0.000|
+in2<7>      |    4.750(F)|   -0.231(F)|Cout_not0001      |   0.000|
+            |    4.243(F)|   -0.284(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock SEL<5>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Cin         |    9.519(F)|   -4.027(F)|Cout_not0001      |   0.000|
+            |    8.395(F)|   -0.899(F)|ZFlag_not0001     |   0.000|
+in1<0>      |   10.075(F)|   -4.473(F)|Cout_not0001      |   0.000|
+            |    8.951(F)|   -1.304(F)|ZFlag_not0001     |   0.000|
+in1<1>      |    9.335(F)|   -3.896(F)|Cout_not0001      |   0.000|
+            |    8.231(F)|   -0.984(F)|ZFlag_not0001     |   0.000|
+in1<2>      |    8.966(F)|   -3.629(F)|Cout_not0001      |   0.000|
+            |    7.896(F)|   -1.633(F)|ZFlag_not0001     |   0.000|
+in1<3>      |    6.941(F)|   -2.216(F)|Cout_not0001      |   0.000|
+            |    6.129(F)|    0.275(F)|ZFlag_not0001     |   0.000|
+in1<4>      |    6.079(F)|   -0.891(F)|Cout_not0001      |   0.000|
+            |    4.474(F)|    0.029(F)|ZFlag_not0001     |   0.000|
+in1<5>      |    4.926(F)|    0.003(F)|Cout_not0001      |   0.000|
+            |    3.356(F)|    0.258(F)|ZFlag_not0001     |   0.000|
+in1<6>      |    4.474(F)|    0.663(F)|Cout_not0001      |   0.000|
+            |    2.572(F)|    0.534(F)|ZFlag_not0001     |   0.000|
+in1<7>      |    3.890(F)|    0.576(F)|Cout_not0001      |   0.000|
+            |    4.307(F)|   -0.646(F)|ZFlag_not0001     |   0.000|
+in2<0>      |    9.880(F)|   -0.902(F)|Cout_not0001      |   0.000|
+            |    8.756(F)|   -0.990(F)|ZFlag_not0001     |   0.000|
+in2<1>      |    8.572(F)|   -0.878(F)|Cout_not0001      |   0.000|
+            |    8.208(F)|   -0.966(F)|ZFlag_not0001     |   0.000|
+in2<2>      |    8.393(F)|   -1.183(F)|Cout_not0001      |   0.000|
+            |    7.798(F)|   -1.250(F)|ZFlag_not0001     |   0.000|
+in2<3>      |    7.243(F)|   -1.153(F)|Cout_not0001      |   0.000|
+            |    7.330(F)|   -1.241(F)|ZFlag_not0001     |   0.000|
+in2<4>      |    6.474(F)|   -0.396(F)|Cout_not0001      |   0.000|
+            |    5.298(F)|   -0.094(F)|ZFlag_not0001     |   0.000|
+in2<5>      |    5.407(F)|   -0.468(F)|Cout_not0001      |   0.000|
+            |    5.388(F)|   -0.759(F)|ZFlag_not0001     |   0.000|
+in2<6>      |    4.234(F)|    0.275(F)|Cout_not0001      |   0.000|
+            |    4.651(F)|   -0.805(F)|ZFlag_not0001     |   0.000|
+in2<7>      |    4.517(F)|    0.572(F)|Cout_not0001      |   0.000|
+            |    4.934(F)|   -1.148(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock SEL<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Cout        |    7.884(F)|Cout_not0001      |   0.000|
+NFlag       |    7.506(F)|ZFlag_not0001     |   0.000|
+ZFlag       |    7.506(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------------+--------+
+
+Clock SEL<1> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Cout        |    7.642(F)|Cout_not0001      |   0.000|
+NFlag       |    8.076(F)|ZFlag_not0001     |   0.000|
+ZFlag       |    8.076(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------------+--------+
+
+Clock SEL<2> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Cout        |    7.577(F)|Cout_not0001      |   0.000|
+NFlag       |    8.098(F)|ZFlag_not0001     |   0.000|
+ZFlag       |    8.098(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------------+--------+
+
+Clock SEL<3> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Cout        |    7.557(F)|Cout_not0001      |   0.000|
+NFlag       |    8.585(F)|ZFlag_not0001     |   0.000|
+ZFlag       |    8.585(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------------+--------+
+
+Clock SEL<4> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Cout        |    7.751(F)|Cout_not0001      |   0.000|
+NFlag       |    8.710(F)|ZFlag_not0001     |   0.000|
+ZFlag       |    8.710(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------------+--------+
+
+Clock SEL<5> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Cout        |    8.554(F)|Cout_not0001      |   0.000|
+NFlag       |    7.846(F)|ZFlag_not0001     |   0.000|
+ZFlag       |    7.846(F)|ZFlag_not0001     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock SEL<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SEL<0>         |         |         |    5.192|    5.192|
+SEL<1>         |         |         |    5.535|    5.535|
+SEL<2>         |         |         |    5.104|    5.104|
+SEL<3>         |         |         |    5.794|    5.794|
+SEL<4>         |         |         |    5.822|    5.822|
+SEL<5>         |         |         |    4.871|    4.871|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SEL<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SEL<0>         |         |         |    4.737|    4.737|
+SEL<1>         |         |         |    5.080|    5.080|
+SEL<2>         |         |         |    4.649|    4.649|
+SEL<3>         |         |         |    5.339|    5.339|
+SEL<4>         |         |         |    5.367|    5.367|
+SEL<5>         |         |         |    4.416|    4.416|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SEL<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SEL<0>         |         |         |    4.719|    4.719|
+SEL<1>         |         |         |    5.062|    5.062|
+SEL<2>         |         |         |    4.631|    4.631|
+SEL<3>         |         |         |    5.321|    5.321|
+SEL<4>         |         |         |    5.349|    5.349|
+SEL<5>         |         |         |    4.398|    4.398|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SEL<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SEL<0>         |         |         |    4.329|    4.329|
+SEL<1>         |         |         |    4.672|    4.672|
+SEL<2>         |         |         |    4.241|    4.241|
+SEL<3>         |         |         |    4.931|    4.931|
+SEL<4>         |         |         |    4.959|    4.959|
+SEL<5>         |         |         |    4.008|    4.008|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SEL<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SEL<0>         |         |         |    4.229|    4.229|
+SEL<1>         |         |         |    4.572|    4.572|
+SEL<2>         |         |         |    4.141|    4.141|
+SEL<3>         |         |         |    4.831|    4.831|
+SEL<4>         |         |         |    4.859|    4.859|
+SEL<5>         |         |         |    3.908|    3.908|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SEL<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SEL<0>         |         |         |    4.920|    4.920|
+SEL<1>         |         |         |    5.263|    5.263|
+SEL<2>         |         |         |    4.832|    4.832|
+SEL<3>         |         |         |    5.522|    5.522|
+SEL<4>         |         |         |    5.550|    5.550|
+SEL<5>         |         |         |    4.599|    4.599|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Cin            |result<0>      |    9.158|
+Cin            |result<1>      |   11.708|
+Cin            |result<2>      |   11.583|
+Cin            |result<3>      |   12.110|
+Cin            |result<4>      |   13.597|
+Cin            |result<5>      |   13.861|
+Cin            |result<6>      |   14.941|
+Cin            |result<7>      |   16.580|
+SEL<0>         |result<0>      |    9.502|
+SEL<0>         |result<1>      |    7.474|
+SEL<0>         |result<2>      |    7.612|
+SEL<0>         |result<3>      |    8.113|
+SEL<0>         |result<4>      |    8.224|
+SEL<0>         |result<5>      |    8.566|
+SEL<0>         |result<6>      |    9.532|
+SEL<0>         |result<7>      |    8.097|
+SEL<1>         |result<0>      |   12.428|
+SEL<1>         |result<1>      |   11.606|
+SEL<1>         |result<2>      |   12.585|
+SEL<1>         |result<3>      |   12.692|
+SEL<1>         |result<4>      |   13.861|
+SEL<1>         |result<5>      |   12.156|
+SEL<1>         |result<6>      |   12.400|
+SEL<1>         |result<7>      |   13.658|
+SEL<2>         |result<0>      |   12.263|
+SEL<2>         |result<1>      |   11.645|
+SEL<2>         |result<2>      |   12.571|
+SEL<2>         |result<3>      |   12.527|
+SEL<2>         |result<4>      |   13.377|
+SEL<2>         |result<5>      |   12.293|
+SEL<2>         |result<6>      |   12.235|
+SEL<2>         |result<7>      |   13.449|
+SEL<3>         |result<0>      |   12.883|
+SEL<3>         |result<1>      |   12.059|
+SEL<3>         |result<2>      |   13.040|
+SEL<3>         |result<3>      |   13.147|
+SEL<3>         |result<4>      |   14.056|
+SEL<3>         |result<5>      |   12.519|
+SEL<3>         |result<6>      |   12.855|
+SEL<3>         |result<7>      |   14.069|
+SEL<4>         |result<0>      |   12.872|
+SEL<4>         |result<1>      |   12.048|
+SEL<4>         |result<2>      |   13.029|
+SEL<4>         |result<3>      |   13.136|
+SEL<4>         |result<4>      |   14.158|
+SEL<4>         |result<5>      |   12.508|
+SEL<4>         |result<6>      |   12.844|
+SEL<4>         |result<7>      |   14.058|
+SEL<5>         |result<0>      |    9.230|
+SEL<5>         |result<1>      |    7.499|
+SEL<5>         |result<2>      |    7.709|
+SEL<5>         |result<3>      |    7.678|
+SEL<5>         |result<4>      |    8.183|
+SEL<5>         |result<5>      |    8.294|
+SEL<5>         |result<6>      |    9.260|
+SEL<5>         |result<7>      |    7.678|
+in1<0>         |result<0>      |    9.705|
+in1<0>         |result<1>      |   12.264|
+in1<0>         |result<2>      |   12.139|
+in1<0>         |result<3>      |   12.666|
+in1<0>         |result<4>      |   14.153|
+in1<0>         |result<5>      |   14.417|
+in1<0>         |result<6>      |   15.497|
+in1<0>         |result<7>      |   17.136|
+in1<1>         |result<1>      |   10.231|
+in1<1>         |result<2>      |   11.399|
+in1<1>         |result<3>      |   11.926|
+in1<1>         |result<4>      |   13.413|
+in1<1>         |result<5>      |   13.677|
+in1<1>         |result<6>      |   14.757|
+in1<1>         |result<7>      |   16.396|
+in1<2>         |result<2>      |   10.192|
+in1<2>         |result<3>      |   12.147|
+in1<2>         |result<4>      |   13.798|
+in1<2>         |result<5>      |   13.308|
+in1<2>         |result<6>      |   14.388|
+in1<2>         |result<7>      |   16.027|
+in1<3>         |result<3>      |   10.044|
+in1<3>         |result<4>      |   12.175|
+in1<3>         |result<5>      |   11.283|
+in1<3>         |result<6>      |   12.363|
+in1<3>         |result<7>      |   14.002|
+in1<4>         |result<4>      |   10.699|
+in1<4>         |result<5>      |   10.421|
+in1<4>         |result<6>      |   11.575|
+in1<4>         |result<7>      |   13.140|
+in1<5>         |result<5>      |   10.421|
+in1<5>         |result<6>      |   11.275|
+in1<5>         |result<7>      |   12.285|
+in1<6>         |result<6>      |   10.216|
+in1<6>         |result<7>      |   11.535|
+in1<7>         |result<7>      |   10.900|
+in2<0>         |result<0>      |    9.518|
+in2<0>         |result<1>      |   12.069|
+in2<0>         |result<2>      |   11.944|
+in2<0>         |result<3>      |   12.471|
+in2<0>         |result<4>      |   13.958|
+in2<0>         |result<5>      |   14.222|
+in2<0>         |result<6>      |   15.302|
+in2<0>         |result<7>      |   16.941|
+in2<1>         |result<1>      |    9.882|
+in2<1>         |result<2>      |   10.717|
+in2<1>         |result<3>      |   11.704|
+in2<1>         |result<4>      |   13.108|
+in2<1>         |result<5>      |   13.157|
+in2<1>         |result<6>      |   13.994|
+in2<1>         |result<7>      |   15.633|
+in2<2>         |result<2>      |   10.302|
+in2<2>         |result<3>      |   11.294|
+in2<2>         |result<4>      |   12.698|
+in2<2>         |result<5>      |   12.747|
+in2<2>         |result<6>      |   13.815|
+in2<2>         |result<7>      |   15.454|
+in2<3>         |result<3>      |   10.959|
+in2<3>         |result<4>      |   12.230|
+in2<3>         |result<5>      |   12.279|
+in2<3>         |result<6>      |   12.880|
+in2<3>         |result<7>      |   13.923|
+in2<4>         |result<4>      |   10.988|
+in2<4>         |result<5>      |   10.816|
+in2<4>         |result<6>      |   11.896|
+in2<4>         |result<7>      |   13.535|
+in2<5>         |result<5>      |   10.285|
+in2<5>         |result<6>      |   10.829|
+in2<5>         |result<7>      |   12.468|
+in2<6>         |result<6>      |    9.585|
+in2<6>         |result<7>      |   11.244|
+in2<7>         |result<7>      |   11.527|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Oct 11 10:39:46 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 94 MB
+
+
+

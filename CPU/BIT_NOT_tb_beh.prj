@@ -1,0 +1,2 @@
+vhdl work "BIT_NOT.vhd"
+vhdl work "BIT_NOT_tb.vhd"

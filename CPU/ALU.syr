@@ -1,0 +1,527 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Reading design: ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU"
+Output Format                      : NGC
+Target Device                      : xc3s50a-4-tq144
+
+---- Source Options
+Top Module Name                    : ALU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/BIT_AND.vhd" in Library work.
+Architecture bitand of Entity bit_and is up to date.
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/BIT_OR.vhd" in Library work.
+Architecture bitor of Entity bit_or is up to date.
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/BIT_NOT.vhd" in Library work.
+Architecture bitnot of Entity bit_not is up to date.
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/BIT_XOR.vhd" in Library work.
+Architecture bitxor of Entity bit_xor is up to date.
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/ADDC.vhd" in Library work.
+Architecture addwc of Entity addc is up to date.
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/SBB.vhd" in Library work.
+Architecture sbb of Entity sbb is up to date.
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/NEG.vhd" in Library work.
+Architecture neg of Entity neg is up to date.
+Compiling vhdl file "//maxwell/zjf10$/353/CPU/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BIT_AND> in library <work> (architecture <bitand>).
+
+Analyzing hierarchy for entity <BIT_OR> in library <work> (architecture <bitor>).
+
+Analyzing hierarchy for entity <BIT_NOT> in library <work> (architecture <bitnot>).
+
+Analyzing hierarchy for entity <BIT_XOR> in library <work> (architecture <bitxor>).
+
+Analyzing hierarchy for entity <ADDC> in library <work> (architecture <addwc>).
+
+Analyzing hierarchy for entity <SBB> in library <work> (architecture <sbb>).
+
+Analyzing hierarchy for entity <NEG> in library <work> (architecture <neg>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "//maxwell/zjf10$/353/CPU/ALU.vhd" line 124: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <AND_R>, <OR_R>, <NOT_R>, <XOR_R>, <ADC_R>, <ADC_Cout>, <SBB_R>, <SBB_Cout>, <SBB_Z>, <SBB_N>, <NEG_R>
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <BIT_AND> in library <work> (Architecture <bitand>).
+Entity <BIT_AND> analyzed. Unit <BIT_AND> generated.
+
+Analyzing Entity <BIT_OR> in library <work> (Architecture <bitor>).
+Entity <BIT_OR> analyzed. Unit <BIT_OR> generated.
+
+Analyzing Entity <BIT_NOT> in library <work> (Architecture <bitnot>).
+Entity <BIT_NOT> analyzed. Unit <BIT_NOT> generated.
+
+Analyzing Entity <BIT_XOR> in library <work> (Architecture <bitxor>).
+Entity <BIT_XOR> analyzed. Unit <BIT_XOR> generated.
+
+Analyzing Entity <ADDC> in library <work> (Architecture <addwc>).
+Entity <ADDC> analyzed. Unit <ADDC> generated.
+
+Analyzing Entity <SBB> in library <work> (Architecture <sbb>).
+Entity <SBB> analyzed. Unit <SBB> generated.
+
+Analyzing Entity <NEG> in library <work> (Architecture <neg>).
+Entity <NEG> analyzed. Unit <NEG> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <BIT_AND>.
+    Related source file is "//maxwell/zjf10$/353/CPU/BIT_AND.vhd".
+Unit <BIT_AND> synthesized.
+
+
+Synthesizing Unit <BIT_OR>.
+    Related source file is "//maxwell/zjf10$/353/CPU/BIT_OR.vhd".
+Unit <BIT_OR> synthesized.
+
+
+Synthesizing Unit <BIT_NOT>.
+    Related source file is "//maxwell/zjf10$/353/CPU/BIT_NOT.vhd".
+WARNING:Xst:647 - Input <in2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <BIT_NOT> synthesized.
+
+
+Synthesizing Unit <BIT_XOR>.
+    Related source file is "//maxwell/zjf10$/353/CPU/BIT_XOR.vhd".
+    Found 8-bit xor2 for signal <result>.
+Unit <BIT_XOR> synthesized.
+
+
+Synthesizing Unit <ADDC>.
+    Related source file is "//maxwell/zjf10$/353/CPU/ADDC.vhd".
+    Found 8-bit xor2 for signal <result>.
+    Found 1-bit xor2 for signal <INT_CARRY_1$xor0000> created at line 45.
+    Found 1-bit xor2 for signal <INT_CARRY_2$xor0000> created at line 45.
+    Found 1-bit xor2 for signal <INT_CARRY_3$xor0000> created at line 45.
+    Found 1-bit xor2 for signal <INT_CARRY_4$xor0000> created at line 45.
+    Found 1-bit xor2 for signal <INT_CARRY_5$xor0000> created at line 45.
+    Found 1-bit xor2 for signal <INT_CARRY_6$xor0000> created at line 45.
+    Found 1-bit xor2 for signal <INT_CARRY_7$xor0000> created at line 45.
+    Found 1-bit xor2 for signal <INT_CARRY_8$xor0000> created at line 45.
+Unit <ADDC> synthesized.
+
+
+Synthesizing Unit <SBB>.
+    Related source file is "//maxwell/zjf10$/353/CPU/SBB.vhd".
+WARNING:Xst:646 - Signal <INT_CARRY1<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 7-bit xor2 for signal <INT_BUS2<7:1>>.
+    Found 8-bit xor2 for signal <INT_BUS3>.
+    Found 1-bit xor2 for signal <INT_CARRY2_1$xor0000> created at line 60.
+    Found 1-bit xor2 for signal <INT_CARRY2_2$xor0000> created at line 60.
+    Found 1-bit xor2 for signal <INT_CARRY2_3$xor0000> created at line 60.
+    Found 1-bit xor2 for signal <INT_CARRY2_4$xor0000> created at line 60.
+    Found 1-bit xor2 for signal <INT_CARRY2_5$xor0000> created at line 60.
+    Found 1-bit xor2 for signal <INT_CARRY2_6$xor0000> created at line 60.
+    Found 1-bit xor2 for signal <INT_CARRY2_7$xor0000> created at line 60.
+    Found 1-bit xor2 for signal <INT_CARRY2_8$xor0000> created at line 60.
+Unit <SBB> synthesized.
+
+
+Synthesizing Unit <NEG>.
+    Related source file is "//maxwell/zjf10$/353/CPU/NEG.vhd".
+WARNING:Xst:647 - Input <in2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <addnum<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 7-bit xor2 for signal <result<7:1>>.
+Unit <NEG> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "//maxwell/zjf10$/353/CPU/ALU.vhd".
+WARNING:Xst:647 - Input <clock> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:737 - Found 1-bit latch for signal <Cout>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <ZFlag>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <NFlag>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+Unit <ALU> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 3
+ 1-bit latch                                           : 3
+# Xors                                                 : 54
+ 1-bit xor2                                            : 54
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 3
+ 1-bit latch                                           : 3
+# Xors                                                 : 54
+ 1-bit xor2                                            : 54
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU, actual ratio is 11.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU.ngr
+Top Level Output File Name         : ALU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 35
+
+Cell Usage :
+# BELS                             : 137
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT3                        : 35
+#      LUT4                        : 90
+#      MUXF5                       : 8
+# FlipFlops/Latches                : 3
+#      LD                          : 3
+# IO Buffers                       : 34
+#      IBUF                        : 23
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-4 
+
+ Number of Slices:                       73  out of    704    10%  
+ Number of 4 input LUTs:                128  out of   1408     9%  
+ Number of IOs:                          35
+ Number of bonded IOBs:                  34  out of    108    31%  
+    IOB Flip Flops:                       3
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ZFlag_not0001(ZFlag_not0001:O)     | NONE(*)(NFlag)         | 2     |
+Cout_not0001(Cout_not0001_f5:O)    | NONE(*)(Cout)          | 1     |
+-----------------------------------+------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 12.906ns
+   Maximum output required time after clock: 5.668ns
+   Maximum combinational path delay: 18.457ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ZFlag_not0001'
+  Total number of paths / destination ports: 185 / 2
+-------------------------------------------------------------------------
+Offset:              12.001ns (Levels of Logic = 9)
+  Source:            in1<0> (PAD)
+  Destination:       NFlag (LATCH)
+  Destination Clock: ZFlag_not0001 falling
+
+  Data Path: in1<0> to NFlag
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   0.849   1.076  in1_0_IBUF (in1_0_IBUF)
+     LUT3:I0->O            5   0.648   0.776  ALU_ADC/INT_CARRY<1>1 (ALU_ADC/INT_CARRY<1>)
+     LUT4:I0->O            3   0.648   0.674  ALU_SBB/INT_CARRY2_2_or00001 (ALU_SBB/INT_CARRY2<2>)
+     LUT3:I0->O            3   0.648   0.674  ALU_SBB/INT_CARRY2_3_or00001 (ALU_SBB/INT_CARRY2<3>)
+     LUT3:I0->O            2   0.648   0.590  ALU_SBB/INT_CARRY2_4_or00001 (ALU_SBB/INT_CARRY2<4>)
+     LUT4:I0->O            3   0.648   0.674  ALU_SBB/INT_CARRY2_5_or00001 (ALU_SBB/INT_CARRY2<5>)
+     LUT3:I0->O            4   0.648   0.667  ALU_SBB/INT_CARRY2_6_or00001 (ALU_SBB/INT_CARRY2<6>)
+     LUT4:I1->O            2   0.643   0.590  ALU_SBB/Mxor_INT_BUS3<7>_Result1 (SBB_N)
+     LUT4:I0->O            1   0.648   0.000  NFlag_mux00001 (NFlag_mux0000)
+     LD:D                      0.252          NFlag
+    ----------------------------------------
+    Total                     12.001ns (6.280ns logic, 5.721ns route)
+                                       (52.3% logic, 47.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Cout_not0001'
+  Total number of paths / destination ports: 78 / 1
+-------------------------------------------------------------------------
+Offset:              12.906ns (Levels of Logic = 11)
+  Source:            in1<0> (PAD)
+  Destination:       Cout (LATCH)
+  Destination Clock: Cout_not0001 falling
+
+  Data Path: in1<0> to Cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   0.849   1.076  in1_0_IBUF (in1_0_IBUF)
+     LUT3:I0->O            5   0.648   0.665  ALU_ADC/INT_CARRY<1>1 (ALU_ADC/INT_CARRY<1>)
+     LUT3:I2->O            4   0.648   0.619  ALU_ADC/INT_CARRY_2_or00001 (ALU_ADC/INT_CARRY<2>)
+     LUT3:I2->O            2   0.648   0.590  ALU_ADC/INT_CARRY_3_or00001 (ALU_ADC/INT_CARRY<3>)
+     LUT3:I0->O            3   0.648   0.563  ALU_ADC/INT_CARRY_4_or00001 (ALU_ADC/INT_CARRY<4>)
+     LUT3:I2->O            3   0.648   0.563  ALU_ADC/INT_CARRY_5_or00001 (ALU_ADC/INT_CARRY<5>)
+     LUT3:I2->O            3   0.648   0.563  ALU_ADC/INT_CARRY_6_or00001 (ALU_ADC/INT_CARRY<6>)
+     LUT3:I2->O            3   0.648   0.563  ALU_ADC/INT_CARRY_7_or00001 (ALU_ADC/INT_CARRY<7>)
+     LUT3:I2->O            1   0.648   0.000  Cout_mux000024_F (N115)
+     MUXF5:I0->O           1   0.276   0.500  Cout_mux000024 (Cout_mux000024)
+     LUT3:I1->O            1   0.643   0.000  Cout_mux000065 (Cout_mux0000)
+     LD:D                      0.252          Cout
+    ----------------------------------------
+    Total                     12.906ns (7.204ns logic, 5.702ns route)
+                                       (55.8% logic, 44.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Cout_not0001'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            Cout (LATCH)
+  Destination:       Cout (PAD)
+  Source Clock:      Cout_not0001 falling
+
+  Data Path: Cout to Cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  Cout (Cout_OBUF)
+     OBUF:I->O                 4.520          Cout_OBUF (Cout)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ZFlag_not0001'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            ZFlag (LATCH)
+  Destination:       ZFlag (PAD)
+  Source Clock:      ZFlag_not0001 falling
+
+  Data Path: ZFlag to ZFlag
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  ZFlag (ZFlag_OBUF)
+     OBUF:I->O                 4.520          ZFlag_OBUF (ZFlag)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 709 / 8
+-------------------------------------------------------------------------
+Delay:               18.457ns (Levels of Logic = 12)
+  Source:            in1<0> (PAD)
+  Destination:       result<7> (PAD)
+
+  Data Path: in1<0> to result<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   0.849   1.076  in1_0_IBUF (in1_0_IBUF)
+     LUT3:I0->O            5   0.648   0.665  ALU_ADC/INT_CARRY<1>1 (ALU_ADC/INT_CARRY<1>)
+     LUT3:I2->O            4   0.648   0.619  ALU_ADC/INT_CARRY_2_or00001 (ALU_ADC/INT_CARRY<2>)
+     LUT3:I2->O            2   0.648   0.590  ALU_ADC/INT_CARRY_3_or00001 (ALU_ADC/INT_CARRY<3>)
+     LUT3:I0->O            3   0.648   0.563  ALU_ADC/INT_CARRY_4_or00001 (ALU_ADC/INT_CARRY<4>)
+     LUT3:I2->O            3   0.648   0.563  ALU_ADC/INT_CARRY_5_or00001 (ALU_ADC/INT_CARRY<5>)
+     LUT3:I2->O            3   0.648   0.563  ALU_ADC/INT_CARRY_6_or00001 (ALU_ADC/INT_CARRY<6>)
+     LUT3:I2->O            3   0.648   0.563  ALU_ADC/INT_CARRY_7_or00001 (ALU_ADC/INT_CARRY<7>)
+     LUT4:I2->O            1   0.648   0.563  result<7>84 (result<7>84)
+     LUT3:I0->O            1   0.648   0.423  result<7>146_SW0 (N1111)
+     LUT4:I3->O            1   0.648   0.420  result<7>146 (result_7_OBUF)
+     OBUF:I->O                 4.520          result_7_OBUF (result<7>)
+    ----------------------------------------
+    Total                     18.457ns (11.849ns logic, 6.608ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.72 secs
+ 
+--> 
+
+Total memory usage is 137936 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

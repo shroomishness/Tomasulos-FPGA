@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="7">
+	<FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+		<Filter Type="Constrs"/>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.ucf">
+		</File>
+		<Config>
+			<Option Name="TargetPart" Val="xc3s400ft256-4"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

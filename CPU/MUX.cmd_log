@@ -1,0 +1,109 @@
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "J:/353/CPU/MUX.xst" -ofn "J:/353/CPU/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-4 MUX.ngc MUX.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -t 1 MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 

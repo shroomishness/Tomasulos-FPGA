@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\All Other Files\Hardware\Research Project\CPU_IMPLEMENTATION\CPU\CU.ncd
+OUTFILE=E:\All Other Files\Hardware\Research Project\CPU_IMPLEMENTATION\CPU\CU.bit
+FAMILY=Spartan3
+PART=xc3s400-4ft256
+WORKINGDIR=E:\All Other Files\Hardware\Research Project\CPU_IMPLEMENTATION\CPU
+LICENSE=ISE
+USER_INFO=179862707_179862709_226

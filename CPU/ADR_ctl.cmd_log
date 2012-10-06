@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "J:/353/CPU/ADR_ctl.xst" -ofn "J:/353/CPU/ADR_ctl.syr" 
+xst -intstyle ise -ifn "J:/353/CPU/ADR_ctl.xst" -ofn "J:/353/CPU/ADR_ctl.syr" 

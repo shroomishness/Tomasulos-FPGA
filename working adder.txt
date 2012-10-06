@@ -1,0 +1,44 @@
+INT_CARRY(0) <= Cin;
+process(INT_CARRY(0))
+begin 
+	result(0) <= (in1(0) xor in2(0)) xor INT_CARRY(0);
+	INT_CARRY(1) <= (INT_CARRY(0) and (in1(0) xor in2(0))) or (in1(0) and in2(0));
+	end process;
+process(INT_CARRY(1))
+begin 
+	result(1) <= (in1(1) xor in2(1)) xor INT_CARRY(1);
+	INT_CARRY(2) <= (INT_CARRY(1) and (in1(1) xor in2(1))) or (in1(1) and in2(1));
+	end process;
+process(INT_CARRY(2))
+begin 
+	result(2) <= (in1(2) xor in2(2)) xor INT_CARRY(2);
+	INT_CARRY(3) <= (INT_CARRY(2) and (in1(2) xor in2(2))) or (in1(2) and in2(2));
+	end process;	
+process(INT_CARRY(3))
+begin 
+	result(3) <= (in1(3) xor in2(3)) xor INT_CARRY(3);
+	INT_CARRY(4) <= (INT_CARRY(3) and (in1(3) xor in2(3))) or (in1(3) and in2(3));
+	end process;		
+process(INT_CARRY(4))
+begin 
+	result(4) <= (in1(4) xor in2(4)) xor INT_CARRY(4);
+	INT_CARRY(5) <= (INT_CARRY(4) and (in1(4) xor in2(4))) or (in1(4) and in2(4));
+	end process;			
+process(INT_CARRY(5))
+begin 
+	result(5) <= (in1(5) xor in2(5)) xor INT_CARRY(5);
+	INT_CARRY(6) <= (INT_CARRY(5) and (in1(5) xor in2(5))) or (in1(5) and in2(5));
+	end process;	
+	process(INT_CARRY(6))
+begin 
+	result(6) <= (in1(6) xor in2(6)) xor INT_CARRY(6);
+	INT_CARRY(7) <= (INT_CARRY(6) and (in1(6) xor in2(6))) or (in1(6) and in2(6));
+	end process;	
+	process(INT_CARRY(7))
+begin 
+	result(7) <= (in1(7) xor in2(7)) xor INT_CARRY(7);
+	Cout <= (INT_CARRY(7) and (in1(7) xor in2(7))) or (in1(7) and in2(7));
+	end process;	
+
+
+end addwc;

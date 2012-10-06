@@ -1,0 +1,197 @@
+Release 12.4 par M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+DSL002::  Tue Oct 11 10:39:19 2011
+
+par -w -intstyle ise -ol high -t 1 ALU_map.ncd ALU.ncd ALU.pcf 
+
+
+Constraints file: ALU.pcf.
+Loading device for application Rf_Device from file '3s50a.nph' in environment C:\Xilinx\12.4\ISE_DS\ISE\.
+   "ALU" is an NCD, version 3.2, device xc3s50a, package tq144, speed -4
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc3s50a' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.41 2010-11-18".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          34 out of 108    31%
+
+   Number of External Input IOBs                 23
+
+      Number of External Input IBUFs             23
+
+   Number of External Output IOBs                11
+
+      Number of External Output IOBs             11
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of Slices                         67 out of 704     9%
+      Number of SLICEMs                      0 out of 352     0%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 3 secs 
+Total CPU  time at the beginning of Placer: 2 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:13bf) REAL time: 5 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:13bf) REAL time: 5 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:13bf) REAL time: 5 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+.........
+Phase 4.2  Initial Clock and IO Placement (Checksum:13bf) REAL time: 7 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:13bf) REAL time: 7 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:13bf) REAL time: 7 secs 
+
+Phase 7.3  Local Placement Optimization
+........
+Phase 7.3  Local Placement Optimization (Checksum:3551993) REAL time: 8 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:3551993) REAL time: 9 secs 
+
+Phase 9.8  Global Placement
+...
+Phase 9.8  Global Placement (Checksum:dbf8356) REAL time: 9 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:dbf8356) REAL time: 9 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:de7a769) REAL time: 9 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:de7a769) REAL time: 9 secs 
+
+Total REAL time to Placer completion: 9 secs 
+Total CPU  time to Placer completion: 5 secs 
+Writing design to file ALU.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 493 unrouted;      REAL time: 10 secs 
+
+Phase  2  : 493 unrouted;      REAL time: 10 secs 
+
+Phase  3  : 135 unrouted;      REAL time: 10 secs 
+
+Phase  4  : 135 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Updating file: ALU.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+WARNING:Route:455 - CLK Net:ZFlag_not0001 may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 11 secs 
+Total CPU time to Router completion: 7 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|       ZFlag_not0001 |         Local|      |    2 |  0.000     |  0.863      |
++---------------------+--------------+------+------+------------+-------------+
+|        Cout_not0001 |         Local|      |    1 |  0.000     |  0.606      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic  | Absolute   |Number of
+                                            |            |            | Levels | Slack      |errors   
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 16 secs 
+Total CPU time to PAR completion: 7 secs 
+
+Peak Memory Usage:  156 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 1
+
+Writing design to file ALU.ncd
+
+
+
+PAR done!

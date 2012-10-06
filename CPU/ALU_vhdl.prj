@@ -1,0 +1,8 @@
+vhdl work "\\maxwell\zjf10$\353\CPU\SBB.vhd"
+vhdl work "\\maxwell\zjf10$\353\CPU\NEG.vhd"
+vhdl work "\\maxwell\zjf10$\353\CPU\BIT_XOR.vhd"
+vhdl work "\\maxwell\zjf10$\353\CPU\BIT_OR.vhd"
+vhdl work "\\maxwell\zjf10$\353\CPU\BIT_NOT.vhd"
+vhdl work "\\maxwell\zjf10$\353\CPU\BIT_AND.vhd"
+vhdl work "\\maxwell\zjf10$\353\CPU\ADDC.vhd"
+vhdl work "\\maxwell\zjf10$\353\CPU\ALU.vhd"

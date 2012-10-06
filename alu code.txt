@@ -1,0 +1,44 @@
+process (SEL, in1, in2)
+begin
+	case SEL is
+
+when "000010" => result <= AND_R;
+		when "000110" => result <= OR_R;
+		when "001010" => result <= NOT_R;
+		when "001110" => result <= XOR_R;
+		when "010010" => result <= ADC_R;
+		when "010110" => result <= ADC_R;
+							  Cout <= ADC_Cout;
+		when "011010" => result <= SBB_R;
+		when "011110" => result <= SBB_R;
+							  Cout <= SBB_Cout;
+							  ZFlag <= SBB_Z;
+							  NFlag <= SBB_N;
+		when "001000" => result <= NEG_R;
+		when "001100" => result <= SBB_R;
+							  ZFlag <= SBB_Z;
+							  NFlag <= SBB_N;
+		when others =>   result <= "00000000";
+
+end case;
+end process;
+
+
+		result  <=  AND_R when SEL = "000010" else
+					   OR_R  when SEL = "000110" else
+						NOT_R when SEL = "001010" else
+						XOR_R when SEL = "001110" else
+						ADC_R when SEL = "010010" else
+						ADC_R when SEL = "010110" else
+						SBB_R when SEL = "011010" else
+						SBB_R when SEL = "011110" else
+						SBB_R when SEL = "001100" else
+						NEG_R when SEL = "001000" else "00000000";
+						
+		Cout <= 		ADC_Cout when SEL = "010010" else
+						SBB_Cout when SEL = "011110" else Cout;
+						
+		NFlag <= 	SBB_N when SEL = "001100" else NFlag;
+
+		ZFlag <=		SBB_Z when SEL = "001100" else ZFlag;
+					

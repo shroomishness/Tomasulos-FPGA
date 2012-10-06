@@ -1,0 +1,8 @@
+vhdl isim_temp "SBB.vhd"
+vhdl isim_temp "NEG.vhd"
+vhdl isim_temp "BIT_XOR.vhd"
+vhdl isim_temp "BIT_OR.vhd"
+vhdl isim_temp "BIT_NOT.vhd"
+vhdl isim_temp "BIT_AND.vhd"
+vhdl isim_temp "ADDC.vhd"
+vhdl isim_temp "ALU.vhd"

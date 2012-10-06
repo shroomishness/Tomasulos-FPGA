@@ -1,0 +1,8 @@
+vhdl work "SBB.vhd"
+vhdl work "NEG.vhd"
+vhdl work "BIT_XOR.vhd"
+vhdl work "BIT_OR.vhd"
+vhdl work "BIT_NOT.vhd"
+vhdl work "BIT_AND.vhd"
+vhdl work "ADDC.vhd"
+vhdl work "ALU.vhd"

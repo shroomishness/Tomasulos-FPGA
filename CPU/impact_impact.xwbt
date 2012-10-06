@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=E:\All Other Files\Hardware\Research Project\CPU_IMPLEMENTATION\CPU\impact.xsl
+OUTFILE=E:\All Other Files\Hardware\Research Project\CPU_IMPLEMENTATION\CPU\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=E:\All Other Files\Hardware\Research Project\CPU_IMPLEMENTATION\CPU
+LICENSE=iMPACT
+USER_INFO=iMPACT

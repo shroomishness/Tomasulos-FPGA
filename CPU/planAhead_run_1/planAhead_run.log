@@ -1,0 +1,32 @@
+
+****** PlanAhead v12.4
+  **** Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+    ** Copyright 1986-1999, 2001-2010 Xilinx, Inc. All Rights Reserved.
+
+Release 12.4 - ngc2edif M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Release 12.4 - ngc2edif M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU_ALU/ALU_SBB/INT_BUS2<6 : 2> on block
+   CU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU_ALU/ALU_SBB/INT_CARRY2<6 : 2> on
+   block CU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CU.edif ...
+ngc2edif: Total memory usage is 56248 kilobytes
+
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-Licensing 3] Your PlanAhead license expires in -494 day(s)
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\PROGRAMS\Xilinx\12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\PROGRAMS\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\PROGRAMS\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+starting gui ...
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

@@ -1,0 +1,28 @@
+Command line:
+   cutb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1955
+
+Fri Oct 14 10:59:38 2011
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 467.022 Meg
+
+ Total Signals          : 142
+ Total Nets             : 530
+ Total Signal Drivers   : 133
+ Total Blocks           : 51
+ Total Primitive Blocks : 43
+ Total Processes        : 119
+ Total Traceable Variables  : 50
+ Total Scalar Nets and Variables : 948
+
+ Total Simulation Time: 0.46875 sec
+
+ Current Memory Usage: 309.735 Meg
+
+Fri Oct 14 11:05:29 2011
+

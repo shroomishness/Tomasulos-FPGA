@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="7">
+	<FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+		<Filter Type="EDIFSrcs"/>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Reg.ngc">
+			<FileInfo RelPath="Reg.ngc"/>
+		</File>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.ngc">
+			<FileInfo RelPath="PC_ctl.ngc"/>
+		</File>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.ngc">
+			<FileInfo RelPath="PC.ngc"/>
+		</File>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/MUX.ngc">
+			<FileInfo RelPath="MUX.ngc"/>
+		</File>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.ngc">
+			<FileInfo RelPath="CU.ngc"/>
+		</File>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/aoi.ngc">
+			<FileInfo RelPath="aoi.ngc"/>
+		</File>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.ngc">
+			<FileInfo RelPath="ALU.ngc"/>
+		</File>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADR_ctl.ngc">
+			<FileInfo RelPath="ADR_ctl.ngc"/>
+		</File>
+		<File Path="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.ngc">
+			<FileInfo RelPath="ADD_R.ngc"/>
+		</File>
+		<Config>
+			<Option Name="DesignMode" Val="GateLvl"/>
+			<Option Name="GateLvlMode" Val="EDIF"/>
+			<Option Name="TopFile" Val="E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.ngc"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

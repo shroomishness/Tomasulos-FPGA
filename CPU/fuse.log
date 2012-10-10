@@ -1,49 +1,18 @@
-Running: C:\PROGRAMS\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU_isim_beh.exe -prj E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU_beh.prj CU 
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/registerStatusTable_isim_beh.exe -prj J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/registerStatusTable_beh.prj work.registerStatusTable 
 ISim M.81d (signature 0xcb73ee62)
 Number of CPUs detected in this system: 2
 Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" into library work
-Parsing VHDL file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" into library work
+Parsing VHDL file "J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/registerStatusTable.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 97408 KB
-Fuse CPU Usage: 358 ms
+Fuse Memory Usage: 59228 KB
+Fuse CPU Usage: 171 ms
 Using precompiled package standard from library std
 Using precompiled package std_logic_1164 from library ieee
-Using precompiled package std_logic_arith from library ieee
-Using precompiled package std_logic_unsigned from library ieee
-Compiling architecture bitand of entity bit_and [bit_and_default]
-Compiling architecture bitor of entity bit_or [bit_or_default]
-Compiling architecture bitnot of entity bit_not [bit_not_default]
-Compiling architecture bitxor of entity bit_xor [bit_xor_default]
-Compiling architecture addwc of entity addc [addc_default]
-Compiling architecture sbb of entity sbb [sbb_default]
-Compiling architecture neg of entity neg [neg_default]
-Compiling architecture behavioral of entity alu [alu_default]
-Compiling architecture regar of entity pc_reg [pc_reg_default]
-Compiling architecture structure of entity pc_ctl [pc_ctl_default]
-Compiling architecture behavioral of entity reg [reg_default]
-Compiling architecture struct of entity add_r [add_r_default]
-Compiling architecture behavioral of entity adr_ctl [adr_ctl_default]
-Compiling architecture behavioral of entity sr [sr_default]
-Compiling architecture cpu_struct of entity cu
+Compiling architecture behavioral of entity registerstatustable
 Time Resolution for simulation is 1ps.
-Waiting for 12 sub-compilation(s) to finish...
-Compiled 33 VHDL Units
-Built simulation executable E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU_isim_beh.exe
-Fuse Memory Usage: 104176 KB
-Fuse CPU Usage: 623 ms
+Compiled 3 VHDL Units
+Built simulation executable J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/registerStatusTable_isim_beh.exe
+Fuse Memory Usage: 84956 KB
+Fuse CPU Usage: 234 ms

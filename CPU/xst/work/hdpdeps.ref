@@ -1,4 +1,110 @@
-V3 94
+V3 109
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADDC.vhd" 2012/10/06.17:14:20 M.81d
+EN work/ADDC 1349869430 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADDC.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ADDC/addwc 1349869431 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADDC.vhd" \
+      EN work/ADDC 1349869430
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_ctl.vhd" 2012/10/06.17:14:20 M.81d
+EN work/ADR_ctl 1349869442 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_ctl.vhd" \
+      PB ieee/std_logic_1164 1290154108 PB ieee/STD_LOGIC_UNSIGNED 1290154110
+AR work/ADR_ctl/Behavioral 1349869443 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_ctl.vhd" \
+      EN work/ADR_ctl 1349869442 CP ADD_R
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_R.vhd" 2012/10/06.17:14:20 M.81d
+EN work/ADD_R 1349869418 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_R.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ADD_R/struct 1349869419 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_R.vhd" \
+      EN work/ADD_R 1349869418
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ALU.vhd" 2012/10/06.17:14:20 M.81d
+EN work/ALU 1349869436 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ALU.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/ALU/Behavioral 1349869437 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ALU.vhd" \
+      EN work/ALU 1349869436 CP BIT_AND CP BIT_OR CP BIT_NOT CP BIT_XOR CP ADDC CP SBB \
+      CP NEG
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_AND.vhd" 2012/10/06.17:14:21 M.81d
+EN work/BIT_AND 1349869422 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_AND.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/BIT_AND/bitand 1349869423 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_AND.vhd" \
+      EN work/BIT_AND 1349869422
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_NOT.vhd" 2012/10/06.17:14:21 M.81d
+EN work/BIT_NOT 1349869426 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_NOT.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/BIT_NOT/bitnot 1349869427 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_NOT.vhd" \
+      EN work/BIT_NOT 1349869426
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_OR.vhd" 2012/10/06.17:14:21 M.81d
+EN work/BIT_OR 1349869424 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_OR.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/BIT_OR/bitor 1349869425 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_OR.vhd" \
+      EN work/BIT_OR 1349869424
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_XOR.vhd" 2012/10/06.17:14:21 M.81d
+EN work/BIT_XOR 1349869428 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_XOR.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/BIT_XOR/bitxor 1349869429 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_XOR.vhd" \
+      EN work/BIT_XOR 1349869428
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.vhd" 2012/10/10.21:24:45 M.81d
+EN work/CU 1349869446 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/CU/CPU_STRUCT 1349869447 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.vhd" \
+      EN work/CU 1349869446 CP ALU CP PC_ctl CP Reg CP ADR_ctl CP SR
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/NEG.vhd" 2012/10/06.17:14:22 M.81d
+EN work/NEG 1349869434 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/NEG.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/NEG/neg 1349869435 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/NEG.vhd" \
+      EN work/NEG 1349869434
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC.vhd" 2012/10/06.17:14:22 M.81d
+EN work/PC_REG 1349869420 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/PC_REG/regar 1349869421 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC.vhd" \
+      EN work/PC_REG 1349869420
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC_ctl.vhd" 2012/10/06.17:14:22 M.81d
+EN work/PC_ctl 1349869438 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC_ctl.vhd" \
+      PB ieee/std_logic_1164 1290154108 PB ieee/STD_LOGIC_UNSIGNED 1290154110
+AR work/PC_ctl/STRUCTURE 1349869439 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC_ctl.vhd" \
+      EN work/PC_ctl 1349869438 CP PC_REG
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/Register.vhd" 2012/10/06.17:14:22 M.81d
+EN work/Reg 1349869440 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/Register.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/Reg/Behavioral 1349869441 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/Register.vhd" \
+      EN work/Reg 1349869440
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SBB.vhd" 2012/10/06.17:14:22 M.81d
+EN work/SBB 1349869432 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SBB.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/SBB/sbb 1349869433 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SBB.vhd" \
+      EN work/SBB 1349869432
+FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SR.vhd" 2012/10/06.17:14:22 M.81d
+EN work/SR 1349869444 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SR.vhd" \
+      PB ieee/std_logic_1164 1290154108
+AR work/SR/Behavioral 1349869445 \
+      FL "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SR.vhd" \
+      EN work/SR 1349869444
 FL //maxwell/zjf10$/353/CPU/ADD.vhd 2011/10/10.14:25:26 M.81d
 EN work/ADD 1318218040 FL //maxwell/zjf10$/353/CPU/ADD.vhd PB ieee/std_logic_1164 1290154108
 AR work/ADD/add 1318218041 \
@@ -39,108 +145,17 @@ EN work/SUB 1318218044 FL //maxwell/zjf10$/353/CPU/SUB.vhd PB ieee/std_logic_116
 AR work/SUB/subtra 1318218045 \
       FL //maxwell/zjf10$/353/CPU/SUB.vhd EN work/SUB 1318218044
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" 2011/10/13.17:19:29 M.81d
-EN work/ADDC 1349477023 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/ADDC/addwc 1349477024 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" \
-      EN work/ADDC 1349477023
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" 2011/10/13.16:41:24 M.81d
-EN work/ADR_ctl 1349477035 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" \
-      PB ieee/std_logic_1164 1290154108 PB ieee/STD_LOGIC_UNSIGNED 1290154110
-AR work/ADR_ctl/Behavioral 1349477036 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" \
-      EN work/ADR_ctl 1349477035 CP ADD_R
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" 2011/10/13.16:46:13 M.81d
-EN work/ADD_R 1349477011 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/ADD_R/struct 1349477012 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" \
-      EN work/ADD_R 1349477011
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" 2011/10/13.17:04:21 M.81d
-EN work/ALU 1349477029 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/ALU/Behavioral 1349477030 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" \
-      EN work/ALU 1349477029 CP BIT_AND CP BIT_OR CP BIT_NOT CP BIT_XOR CP ADDC CP SBB \
-      CP NEG
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" 2011/10/14.09:44:46 M.81d
-EN work/BIT_AND 1349477015 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/BIT_AND/bitand 1349477016 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" \
-      EN work/BIT_AND 1349477015
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" 2011/10/14.09:44:38 M.81d
-EN work/BIT_NOT 1349477019 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/BIT_NOT/bitnot 1349477020 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" \
-      EN work/BIT_NOT 1349477019
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" 2011/10/14.09:44:50 M.81d
-EN work/BIT_OR 1349477017 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/BIT_OR/bitor 1349477018 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" \
-      EN work/BIT_OR 1349477017
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" 2011/10/14.09:44:55 M.81d
-EN work/BIT_XOR 1349477021 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/BIT_XOR/bitxor 1349477022 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" \
-      EN work/BIT_XOR 1349477021
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" 2011/10/13.16:24:34 M.81d
-EN work/CU 1349477039 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/CU/CPU_STRUCT 1349477040 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" \
-      EN work/CU 1349477039 CP ALU CP PC_ctl CP Reg CP ADR_ctl CP SR
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" 2011/10/13.17:37:46 M.81d
-EN work/NEG 1349477027 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/NEG/neg 1349477028 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" \
-      EN work/NEG 1349477027
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" 2011/10/13.16:31:24 M.81d
-EN work/PC_REG 1349477013 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/PC_REG/regar 1349477014 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" \
-      EN work/PC_REG 1349477013
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" 2011/10/13.16:30:09 M.81d
-EN work/PC_ctl 1349477031 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" \
-      PB ieee/std_logic_1164 1290154108 PB ieee/STD_LOGIC_UNSIGNED 1290154110
-AR work/PC_ctl/STRUCTURE 1349477032 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" \
-      EN work/PC_ctl 1349477031 CP PC_REG
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" 2011/10/13.16:54:20 M.81d
-EN work/Reg 1349477033 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/Reg/Behavioral 1349477034 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" \
-      EN work/Reg 1349477033
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" 2011/10/14.09:47:32 M.81d
-EN work/SBB 1349477025 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/SBB/sbb 1349477026 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" \
-      EN work/SBB 1349477025
 FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" 2011/10/13.16:32:57 M.81d
-EN work/SR 1349477037 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" \
-      PB ieee/std_logic_1164 1290154108
-AR work/SR/Behavioral 1349477038 \
-      FL "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" \
-      EN work/SR 1349477037

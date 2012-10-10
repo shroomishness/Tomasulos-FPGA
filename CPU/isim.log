@@ -1,9 +1,9 @@
 ISim log file
-Running: E:\All Other Files\Hardware\Research Project\CPU_IMPLEMENTATION\CPU\CU_isim_beh.exe -gui -tclbatch isim.cmd -wdb E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU_isim_beh.wdb 
+Running: J:\My Documents\Hardware\Research Project\Tomasulos-FPGA\CPU\registerStatusTable_isim_beh.exe -gui -tclbatch isim.cmd -wdb J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/registerStatusTable_isim_beh.wdb 
 ISim M.81d (signature 0xcb73ee62)
 ----------------------------------------------------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@licserver'.
-INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to '27001@licserver:2100@licserver'.
+INFO:Security:53 - The LM_LICENSE_FILE environment variable is not set.
 WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
 WARNING:Security:44 - No license file was found.
        Please run the Xilinx License Configuration Manager
@@ -20,89 +20,23 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# run 0.50us
-# restart
-# isim force add /cu/ins_data 0000000000000001 -radix bin
-# isim force add /cu/ins_data 0000000000000001 -radix bin
-# isim force add /cu/clock 1 -radix bin
-# isim force add /cu/clock 1 -radix bin
-# isim force add /cu/ins_ack 1 -radix bin
-# isim force add /cu/ins_ack 1 -radix bin
-# isim force add /cu/dat_data 11110000 -radix bin
-# isim force add /cu/dat_data 11110000 -radix bin
-# isim force add /cu/dat_ack 1 -radix bin
-# run 0.50us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-at 0 ps, Instance /cu/CPU_PC/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# isim force add /cu/ins_data 0000000000000010 -radix bin
-# run 0.50us
-# show driver /cu/ins_addr
-Driver for /cu/ins_addr[0]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[10]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[11]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[12]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[13]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[14]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[15]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[1]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[2]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[3]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[4]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[5]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[6]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[7]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[8]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-Driver for /cu/ins_addr[9]
-	'X'	: /cu/CPU_PC/:56
-		  in File "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" Line 56
-
-# isim force add /cu/ins_addr 1111111111111111 -radix bin
-# isim force add /cu/ins_addr 1111111111111111 -radix bin
-# run 0.50us
-# restart
+# isim force add /registerstatustable/clock 0 -radix bin -value 1 -radix bin -time 500 ns -repeat 1 us
+# isim force add /registerstatustable/address 0011 -radix bin
+# isim force add /registerstatustable/rsslotnumber 111 -radix bin
+# isim force add /registerstatustable/writedata 1 -radix bin
+# isim force add /registerstatustable/validdata 1 -radix bin
+# run 1.00us
+# isim force add /registerstatustable/writedata 0 -radix bin
+# run 1.00us
+# isim force add /registerstatustable/invalidate 1 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /registerstatustable/writedata 1 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# isim force add /registerstatustable/writedata 0 -radix bin
+# isim force add /registerstatustable/rsslotnumber 010 -radix bin
+# run 1.00us
+# isim force add /registerstatustable/writedata 1 -radix bin
+# run 1.00us

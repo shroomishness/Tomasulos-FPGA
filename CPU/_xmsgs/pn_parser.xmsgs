@@ -8,52 +8,7 @@
 <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SRAM.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/instructionQueueRegister.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

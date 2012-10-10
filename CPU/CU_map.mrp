@@ -9,7 +9,7 @@ Target Device  : xc3s400
 Target Package : ft256
 Target Speed   : -4
 Mapper Version : spartan3 -- $Revision: 1.52.76.2 $
-Mapped Date    : Sat Oct 06 11:44:03 2012
+Mapped Date    : Thu Oct 11 00:44:07 2012
 
 Design Summary
 --------------
@@ -35,7 +35,7 @@ Logic Distribution:
 
 Average Fanout of Non-Clock Nets:                3.39
 
-Peak Memory Usage:  209 MB
+Peak Memory Usage:  147 MB
 Total REAL time to MAP completion:  6 secs 
 Total CPU time to MAP completion:   2 secs 
 
@@ -92,8 +92,7 @@ Section 3 - Informational
 -------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to
 '2100@licserver'.
-INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
-'27001@licserver:2100@licserver'.
+INFO:Security:53 - The LM_LICENSE_FILE environment variable is not set.
 INFO:Security:54 - 'xc3s400' is a WebPack part.
 INFO:LIT:243 - Logical network ins_req has no load.
 INFO:LIT:395 - The above info message is repeated 1 more times for the following

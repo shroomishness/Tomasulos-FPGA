@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2012-10-06T17:01:25</DateModified>
+  <DateModified>2012-10-10T21:44:27</DateModified>
   <ModuleName>CU</ModuleName>
   <SummaryTimeStamp>2011-10-13T16:29:50</SummaryTimeStamp>
-  <SavedFilePath>E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/iseconfig/CU.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU\</ImplementationReportsDirectory>
+  <SavedFilePath>//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/iseconfig/CU.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU\</ImplementationReportsDirectory>
   <DateInitialized>2011-10-11T17:19:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

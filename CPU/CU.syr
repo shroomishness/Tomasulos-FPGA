@@ -4,13 +4,13 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.06 secs
+Total CPU time to Xst completion: 2.53 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.06 secs
+Total CPU time to Xst completion: 2.55 secs
  
 --> Reading design: CU.prj
 
@@ -104,66 +104,67 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-WARNING:HDLParsers:3607 - Unit work/CU is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/CU.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd".
-WARNING:HDLParsers:3607 - Unit work/CU/CPU_STRUCT is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/CU.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd".
-WARNING:HDLParsers:3607 - Unit work/ADR_ctl is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADD_ctl.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd".
-WARNING:HDLParsers:3607 - Unit work/ADR_ctl/Behavioral is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADD_ctl.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd".
-WARNING:HDLParsers:3607 - Unit work/ALU is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ALU.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd".
-WARNING:HDLParsers:3607 - Unit work/ALU/Behavioral is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ALU.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd".
-WARNING:HDLParsers:3607 - Unit work/PC_ctl is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/PC_ctl.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd".
-WARNING:HDLParsers:3607 - Unit work/PC_ctl/STRUCTURE is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/PC_ctl.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd".
-WARNING:HDLParsers:3607 - Unit work/Reg is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/Register.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd".
-WARNING:HDLParsers:3607 - Unit work/Reg/Behavioral is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/Register.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd".
-WARNING:HDLParsers:3607 - Unit work/SR is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/SR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd".
-WARNING:HDLParsers:3607 - Unit work/SR/Behavioral is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/SR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd".
-WARNING:HDLParsers:3607 - Unit work/ADDC is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADDC.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd".
-WARNING:HDLParsers:3607 - Unit work/ADDC/addwc is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADDC.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd".
-WARNING:HDLParsers:3607 - Unit work/ADD_R is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADD_R.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd".
-WARNING:HDLParsers:3607 - Unit work/ADD_R/struct is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/ADD_R.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd".
-WARNING:HDLParsers:3607 - Unit work/BIT_AND is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_AND.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd".
-WARNING:HDLParsers:3607 - Unit work/BIT_AND/bitand is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_AND.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd".
-WARNING:HDLParsers:3607 - Unit work/BIT_NOT is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_NOT.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd".
-WARNING:HDLParsers:3607 - Unit work/BIT_NOT/bitnot is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_NOT.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd".
-WARNING:HDLParsers:3607 - Unit work/BIT_OR is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_OR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd".
-WARNING:HDLParsers:3607 - Unit work/BIT_OR/bitor is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_OR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd".
-WARNING:HDLParsers:3607 - Unit work/BIT_XOR is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_XOR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd".
-WARNING:HDLParsers:3607 - Unit work/BIT_XOR/bitxor is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/BIT_XOR.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd".
-WARNING:HDLParsers:3607 - Unit work/NEG is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/NEG.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd".
-WARNING:HDLParsers:3607 - Unit work/NEG/neg is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/NEG.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd".
-WARNING:HDLParsers:3607 - Unit work/PC_REG is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/PC.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd".
-WARNING:HDLParsers:3607 - Unit work/PC_REG/regar is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/PC.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd".
-WARNING:HDLParsers:3607 - Unit work/SBB is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/SBB.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd".
-WARNING:HDLParsers:3607 - Unit work/SBB/sbb is now defined in a different file.  It was defined in "//maxwell/zjf10$/353/CPU/SBB.vhd", and is now defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd".
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/CU is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.vhd".
+WARNING:HDLParsers:3607 - Unit work/CU/CPU_STRUCT is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADR_ctl is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_ctl.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADR_ctl/Behavioral is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_ctl.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU/Behavioral is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_ctl is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC_ctl.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_ctl/STRUCTURE is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC_ctl.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/Register.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg/Behavioral is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/Register.vhd".
+WARNING:HDLParsers:3607 - Unit work/SR is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SR.vhd".
+WARNING:HDLParsers:3607 - Unit work/SR/Behavioral is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SR.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADDC is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADDC.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADDC/addwc is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADDC.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADD_R is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_R.vhd".
+WARNING:HDLParsers:3607 - Unit work/ADD_R/struct is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_R.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_AND is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_AND.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_AND/bitand is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_AND.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_NOT is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_NOT.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_NOT/bitnot is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_NOT.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_OR is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_OR.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_OR/bitor is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_OR.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_XOR is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_XOR.vhd".
+WARNING:HDLParsers:3607 - Unit work/BIT_XOR/bitxor is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_XOR.vhd".
+WARNING:HDLParsers:3607 - Unit work/NEG is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/NEG.vhd".
+WARNING:HDLParsers:3607 - Unit work/NEG/neg is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/NEG.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_REG is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_REG/regar is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC.vhd".
+WARNING:HDLParsers:3607 - Unit work/SBB is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SBB.vhd".
+WARNING:HDLParsers:3607 - Unit work/SBB/sbb is now defined in a different file.  It was defined in "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd", and is now defined in "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SBB.vhd".
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_R.vhd" in Library work.
 Architecture struct of Entity add_r is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC.vhd" in Library work.
 Architecture regar of Entity pc_reg is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_AND.vhd" in Library work.
 Architecture bitand of Entity bit_and is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_OR.vhd" in Library work.
 Architecture bitor of Entity bit_or is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_NOT.vhd" in Library work.
 Architecture bitnot of Entity bit_not is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_XOR.vhd" in Library work.
 Architecture bitxor of Entity bit_xor is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADDC.vhd" in Library work.
 Architecture addwc of Entity addc is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SBB.vhd" in Library work.
 Architecture sbb of Entity sbb is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/NEG.vhd" in Library work.
 Architecture neg of Entity neg is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ALU.vhd" in Library work.
 Architecture behavioral of Entity alu is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC_ctl.vhd" in Library work.
 Architecture structure of Entity pc_ctl is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/Register.vhd" in Library work.
 Architecture behavioral of Entity reg is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_ctl.vhd" in Library work.
 Architecture behavioral of Entity adr_ctl is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" in Library work.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SR.vhd" in Library work.
 Architecture behavioral of Entity sr is up to date.
-Compiling vhdl file "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" in Library work.
-Architecture cpu_struct of Entity cu is up to date.
+Compiling vhdl file "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.vhd" in Library work.
+Entity <cu> compiled.
+Entity <cu> (Architecture <cpu_struct>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -203,7 +204,7 @@ Analyzing hierarchy for entity <ADD_R> in library <work> (architecture <struct>)
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <CU> in library <work> (Architecture <cpu_struct>).
-WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd" line 207: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.vhd" line 218: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <opcode>, <ALU_out>, <ldd>, <ins_data>, <ADR_out>, <R_data_out2>, <dat_data>, <dat_ack>, <R_data_out1>
 Entity <CU> analyzed. Unit <CU> generated.
 
@@ -232,32 +233,32 @@ Analyzing Entity <NEG> in library <work> (Architecture <neg>).
 Entity <NEG> analyzed. Unit <NEG> generated.
 
 Analyzing Entity <PC_ctl> in library <work> (Architecture <structure>).
-WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd" line 61: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC_ctl.vhd" line 61: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <op>, <PC_ctl_in>, <REG_out>
 Entity <PC_ctl> analyzed. Unit <PC_ctl> generated.
 
 Analyzing Entity <PC_REG> in library <work> (Architecture <regar>).
-WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd" line 33: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC.vhd" line 33: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <PC_in>
 Entity <PC_REG> analyzed. Unit <PC_REG> generated.
 
 Analyzing Entity <Reg> in library <work> (Architecture <behavioral>).
-WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd" line 60: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/Register.vhd" line 60: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <SEL1>, <data_in>
 Entity <Reg> analyzed. Unit <Reg> generated.
 
 Analyzing Entity <ADR_ctl> in library <work> (Architecture <behavioral>).
-WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd" line 64: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_ctl.vhd" line 64: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <op>, <ADR_in>, <Curr_adr>
 Entity <ADR_ctl> analyzed. Unit <ADR_ctl> generated.
 
 Analyzing Entity <ADD_R> in library <work> (Architecture <struct>).
-WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd" line 45: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_R.vhd" line 45: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <SEL>, <ADD_in>
 Entity <ADD_R> analyzed. Unit <ADD_R> generated.
 
 Analyzing Entity <SR> in library <work> (Architecture <behavioral>).
-WARNING:Xst:819 - "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd" line 30: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SR.vhd" line 30: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <SR_in>
 Entity <SR> analyzed. Unit <SR> generated.
 
@@ -269,7 +270,7 @@ Entity <SR> analyzed. Unit <SR> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <Reg>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/Register.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/Register.vhd".
 WARNING:Xst:737 - Found 8-bit latch for signal <r0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 8-bit latch for signal <r1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 8-bit latch for signal <r2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -282,35 +283,35 @@ Unit <Reg> synthesized.
 
 
 Synthesizing Unit <SR>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SR.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SR.vhd".
 WARNING:Xst:737 - Found 16-bit latch for signal <SR_out>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 Unit <SR> synthesized.
 
 
 Synthesizing Unit <BIT_AND>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_AND.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_AND.vhd".
 Unit <BIT_AND> synthesized.
 
 
 Synthesizing Unit <BIT_OR>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_OR.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_OR.vhd".
 Unit <BIT_OR> synthesized.
 
 
 Synthesizing Unit <BIT_NOT>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_NOT.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_NOT.vhd".
 WARNING:Xst:647 - Input <in2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <BIT_NOT> synthesized.
 
 
 Synthesizing Unit <BIT_XOR>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/BIT_XOR.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/BIT_XOR.vhd".
     Found 8-bit xor2 for signal <result>.
 Unit <BIT_XOR> synthesized.
 
 
 Synthesizing Unit <ADDC>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADDC.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADDC.vhd".
     Found 8-bit xor2 for signal <result>.
     Found 1-bit xor2 for signal <INT_CARRY_1$xor0000> created at line 57.
     Found 1-bit xor2 for signal <INT_CARRY_2$xor0000> created at line 57.
@@ -324,7 +325,7 @@ Unit <ADDC> synthesized.
 
 
 Synthesizing Unit <SBB>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/SBB.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/SBB.vhd".
 WARNING:Xst:646 - Signal <INT_CARRY1<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 7-bit xor2 for signal <INT_BUS2<7:1>>.
     Found 8-bit xor2 for signal <INT_BUS3>.
@@ -340,7 +341,7 @@ Unit <SBB> synthesized.
 
 
 Synthesizing Unit <NEG>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/NEG.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/NEG.vhd".
 WARNING:Xst:647 - Input <in2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <addnum<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 7-bit xor2 for signal <result<7:1>>.
@@ -348,13 +349,13 @@ Unit <NEG> synthesized.
 
 
 Synthesizing Unit <PC_REG>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC.vhd".
 WARNING:Xst:737 - Found 16-bit latch for signal <PC_out>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 Unit <PC_REG> synthesized.
 
 
 Synthesizing Unit <ADD_R>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_R.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_R.vhd".
 WARNING:Xst:737 - Found 16-bit latch for signal <a0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 16-bit latch for signal <a1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 16-bit latch for signal <a2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -365,12 +366,12 @@ Unit <ADD_R> synthesized.
 
 
 Synthesizing Unit <ALU>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ALU.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ALU.vhd".
 Unit <ALU> synthesized.
 
 
 Synthesizing Unit <PC_ctl>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/PC_ctl.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/PC_ctl.vhd".
 WARNING:Xst:737 - Found 16-bit latch for signal <REG_in>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Found 16-bit adder for signal <REG_in$addsub0000>.
     Found 16-bit 4-to-1 multiplexer for signal <REG_in$mux0001> created at line 64.
@@ -381,7 +382,7 @@ Unit <PC_ctl> synthesized.
 
 
 Synthesizing Unit <ADR_ctl>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/ADD_ctl.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/ADD_ctl.vhd".
 WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ADR_buffer_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -406,7 +407,7 @@ Unit <ADR_ctl> synthesized.
 
 
 Synthesizing Unit <CU>.
-    Related source file is "E:/All Other Files/Hardware/Research Project/CPU_IMPLEMENTATION/CPU/CU.vhd".
+    Related source file is "//engcad4/akm81$/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.vhd".
 WARNING:Xst:1306 - Output <ins_req> is never assigned.
 WARNING:Xst:647 - Input <ins_ack> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:1780 - Signal <r2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -726,12 +727,12 @@ Delay:               27.866ns (Levels of Logic = 14)
 =========================================================================
 
 
-Total REAL time to Xst completion: 22.00 secs
-Total CPU time to Xst completion: 22.23 secs
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.23 secs
  
 --> 
 
-Total memory usage is 197048 kilobytes
+Total memory usage is 144144 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   92 (   0 filtered)

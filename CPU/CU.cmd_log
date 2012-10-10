@@ -30,3 +30,8 @@ par -w -intstyle ise -ol high -t 1 CU_map.ncd CU.ncd CU.pcf
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CU.twx CU.ncd -o CU.twr CU.pcf -ucf CU.ucf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CU_preroute.twx CU_map.ncd -o CU_preroute.twr CU.pcf -ucf CU.ucf 
 bitgen -intstyle ise -f CU.ut CU.ncd 
+xst -intstyle ise -ifn "J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.xst" -ofn "J:/My Documents/Hardware/Research Project/Tomasulos-FPGA/CPU/CU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CU.ucf -p xc3s400-ft256-4 "CU.ngc" CU.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o CU_map.ncd CU.ngd CU.pcf 
+par -w -intstyle ise -ol high -t 1 CU_map.ncd CU.ncd CU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CU.twx CU.ncd -o CU.twr CU.pcf -ucf CU.ucf 

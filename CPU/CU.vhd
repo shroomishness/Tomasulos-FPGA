@@ -45,6 +45,17 @@ component ALU is
            NFlag : out  STD_LOGIC);
 end component;
 
+component ALU2 is
+    Port ( in1 : in  STD_LOGIC_VECTOR (7 downto 0);
+           in2 : in  STD_LOGIC_VECTOR (7 downto 0);
+			  SEL : in  STD_LOGIC_VECTOR (5 downto 0);
+           result : out  STD_LOGIC_VECTOR (7 downto 0);
+           Cin : in  STD_LOGIC;
+           Cout : out  STD_LOGIC;
+           ZFlag : out  STD_LOGIC;
+           NFlag : out  STD_LOGIC);
+end component;
+
 component PC_ctl is
     Port ( PC_ctl_in : in  STD_LOGIC_VECTOR (15 downto 0);
            PC_ctl_out : out  STD_LOGIC_VECTOR (15 downto 0);

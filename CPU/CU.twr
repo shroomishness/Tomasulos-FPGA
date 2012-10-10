@@ -2,8 +2,8 @@
 Release 12.4 Trace  (nt)
 Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
-C:\PROGRAMS\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3
--s 4 -n 3 -fastpaths -xml CU.twx CU.ncd -o CU.twr CU.pcf -ucf CU.ucf
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml CU.twx CU.ncd -o CU.twr CU.pcf -ucf CU.ucf
 
 Design file:              CU.ncd
 Physical constraint file: CU.pcf
@@ -545,14 +545,14 @@ ins_data<15>   |regout1<7>     |   19.876|
 ---------------+---------------+---------+
 
 
-Analysis completed Sat Oct 06 11:44:47 2012 
+Analysis completed Thu Oct 11 00:44:56 2012 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 103 MB
+Peak Memory Usage: 83 MB
 
 
 
